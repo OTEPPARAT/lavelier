@@ -86,11 +86,11 @@ const Spa = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl mb-6 font-thin">
-            <span className="gradient-text-coral">Lavelier</span>
+            <span className="gradient-text-coral font-light">Lavelier</span>
             <br />
-            <span className="gradient-text-aqua">Aquaterra Lounge</span>
+            <span className="gradient-text-aqua font-light">Aquaterra Lounge</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light">
             สัมผัสประสบการณ์สปาระดับโลก ด้วยนวัตกรรมจากท้องทะเลลึก
           </p>
         </div>
@@ -98,7 +98,7 @@ const Spa = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Spa Packages */}
           <div>
-            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-aqua">
+            <h2 className="font-serif text-3xl font-light mb-8 gradient-text-aqua">
               แพ็คเกจสปา
             </h2>
             
@@ -120,7 +120,7 @@ const Spa = () => {
 
           {/* Booking Form */}
           <div className="glass-card rounded-3xl p-8">
-            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-coral">
+            <h2 className="font-serif text-3xl font-light mb-8 gradient-text-coral">
               จองคิว
             </h2>
 
@@ -216,15 +216,15 @@ const Spa = () => {
 
         {/* Location Info */}
         <div className="mt-20 glass-card rounded-3xl p-12 text-center">
-          <h2 className="font-serif text-3xl font-bold mb-4">
-            <span className="gradient-text-aqua">ที่ตั้ง</span>
+          <h2 className="font-serif text-3xl font-light mb-4">
+            <span className="gradient-text-aqua font-light">ที่ตั้ง</span>
           </h2>
-          <p className="text-xl text-foreground mb-2">Lavelier Aquaterra Lounge</p>
-          <p className="text-muted-foreground mb-6">
+          <p className="text-xl text-foreground mb-2 font-light">Lavelier Aquaterra Lounge</p>
+          <p className="text-muted-foreground mb-6 font-light">
             เซ็นทรัลเวิร์ล ชั้น 7<br />
             เปิดทุกวัน 10:00 - 20:00 น.
           </p>
-          <p className="text-secondary font-medium">
+          <p className="text-secondary font-light">
             โทร: 02-XXX-XXXX
           </p>
         </div>
