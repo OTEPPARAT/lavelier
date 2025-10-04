@@ -18,21 +18,25 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/50" />
         
         {/* Water Light Effect - above model's head */}
-        <div className="absolute top-0 left-1/4 right-1/4 h-1/3 pointer-events-none">
+        <div className="absolute top-0 left-0 right-0 h-1/2 pointer-events-none">
           {[...Array(3)].map((_, i) => (
             <div
               key={i}
-              className="absolute inset-0 animate-shimmer opacity-20"
+              className="absolute inset-0 animate-shimmer"
               style={{
                 background: `linear-gradient(90deg, 
-                  transparent 0%, 
-                  rgba(255, 255, 255, 0.3) 25%, 
-                  rgba(255, 255, 255, 0.5) 50%, 
-                  rgba(255, 255, 255, 0.3) 75%, 
-                  transparent 100%)`,
+                  rgba(255, 255, 255, 0) 0%, 
+                  rgba(255, 255, 255, 0.15) 20%,
+                  rgba(255, 255, 255, 0.25) 40%, 
+                  rgba(255, 255, 255, 0.3) 50%, 
+                  rgba(255, 255, 255, 0.25) 60%,
+                  rgba(255, 255, 255, 0.15) 80%,
+                  rgba(255, 255, 255, 0) 100%)`,
                 backgroundSize: '200% 100%',
                 animationDelay: `${i * 1.2}s`,
                 animationDuration: '4s',
+                maskImage: 'linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 50%, transparent 100%)',
+                WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 50%, transparent 100%)',
               }}
             />
           ))}
