@@ -58,7 +58,7 @@ const products = [
 
 const Products = () => {
   return (
-    <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-background via-cyan-950/70 to-background/80">
+    <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-background via-cyan-950 to-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -94,7 +94,7 @@ const Products = () => {
               </div>
 
               <div className="p-8 pt-4">
-                <h2 className="font-didot text-2xl sm:text-3xl font-semibold mb-4 text-amber-50/70">
+                <h2 className="font-didot text-2xl sm:text-3xl font-semibold mb-4 text-amber-50">
                   {product.name}
                 </h2>
                 
