@@ -8,7 +8,7 @@ const About = () => {
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
             <span className="gradient-text-brand-pink font-light">รู้จักเรา</span>
             <br />
-            <span className="text-foreground font-didot">Lavelier</span>
+            <span className="text-foreground font-didot font-normal">Lavelier</span>
           </h1>
         </div>
 
