@@ -6,6 +6,8 @@ import deepSeaProducts from "@/assets/lavelier-products-final.png";
 import spaGreenProducts from "@/assets/product-spa-green.png";
 import serumPinkProducts from "@/assets/product-serum-pink.png";
 import limitedGoldProducts from "@/assets/product-limited-gold.png";
+import coralRed from "@/assets/coral-red.png";
+
 const Home = () => {
   return <main className="min-h-screen">
       {/* Hero Section */}
@@ -231,6 +233,15 @@ for your skin's timeless beauty."</p>
             </div>
           </div>
       </section>
+
+      {/* Fixed Red Coral - Bottom Right */}
+      <div className="fixed bottom-0 right-0 w-64 h-64 pointer-events-none z-50" style={{ transform: 'translate(15%, 10%)' }}>
+        <img 
+          src={coralRed} 
+          alt="Red Coral" 
+          className="w-full h-full object-contain"
+        />
+      </div>
     </main>;
 };
 export default Home;

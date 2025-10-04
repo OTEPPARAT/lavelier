@@ -11,7 +11,7 @@ import { th } from "date-fns/locale";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 import nautilusShell from "@/assets/nautilus-shell-clean.png";
-import coralRed from "@/assets/coral-red.png";
+import coralBlue from "@/assets/coral-blue.png";
 import spaRoomOceana from "@/assets/spa-room-oceana.png";
 import spaRoomSeagrass from "@/assets/spa-room-seagrass.png";
 import spaRoomHydro from "@/assets/spa-room-hydro.png";
@@ -293,11 +293,11 @@ const Spa = () => {
         </div>
       </div>
       
-      {/* Fixed Red Coral - Outside container for true fixed positioning */}
+      {/* Fixed Blue Coral - Outside container for true fixed positioning */}
       <div className="fixed bottom-0 right-0 w-64 h-64 pointer-events-none z-50" style={{ transform: 'translate(15%, 10%)' }}>
         <img 
-          src={coralRed} 
-          alt="Red Coral" 
+          src={coralBlue} 
+          alt="Blue Coral" 
           className="w-full h-full object-contain"
         />
       </div>
