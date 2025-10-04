@@ -40,10 +40,10 @@ const About = () => {
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           <div className="glass-card rounded-2xl p-8 text-center group hover:scale-105 transition-transform">
-            <div className="inline-block p-4 rounded-full bg-secondary/20 mb-6 group-hover:animate-wave">
-              <Waves className="w-8 h-8 text-secondary" />
+            <div className="inline-block p-4 rounded-full bg-amber-100/20 mb-6 group-hover:animate-wave">
+              <Waves className="w-8 h-8 text-amber-100" />
             </div>
-            <h3 className="font-didot text-xl font-semibold mb-3 text-foreground">
+            <h3 className="font-didot text-xl font-semibold mb-3 text-amber-100">
               Deep Sea Ingredients
             </h3>
             <p className="text-sm text-muted-foreground font-light">
@@ -52,10 +52,10 @@ const About = () => {
           </div>
 
           <div className="glass-card rounded-2xl p-8 text-center group hover:scale-105 transition-transform">
-            <div className="inline-block p-4 rounded-full bg-primary/20 mb-6 group-hover:animate-wave">
-              <Sparkles className="w-8 h-8 text-primary" />
+            <div className="inline-block p-4 rounded-full bg-amber-100/20 mb-6 group-hover:animate-wave">
+              <Sparkles className="w-8 h-8 text-amber-100" />
             </div>
-            <h3 className="font-didot text-xl font-semibold mb-3 text-foreground">
+            <h3 className="font-didot text-xl font-semibold mb-3 text-amber-100">
               Advanced Technology
             </h3>
             <p className="text-sm text-muted-foreground font-light">
@@ -64,10 +64,10 @@ const About = () => {
           </div>
 
           <div className="glass-card rounded-2xl p-8 text-center group hover:scale-105 transition-transform">
-            <div className="inline-block p-4 rounded-full bg-accent/20 mb-6 group-hover:animate-wave">
-              <Heart className="w-8 h-8 text-accent" />
+            <div className="inline-block p-4 rounded-full bg-amber-100/20 mb-6 group-hover:animate-wave">
+              <Heart className="w-8 h-8 text-amber-100" />
             </div>
-            <h3 className="font-didot text-xl font-semibold mb-3 text-foreground">
+            <h3 className="font-didot text-xl font-semibold mb-3 text-amber-100">
               Sustainable Beauty
             </h3>
             <p className="text-sm text-muted-foreground font-light">
@@ -76,10 +76,10 @@ const About = () => {
           </div>
 
           <div className="glass-card rounded-2xl p-8 text-center group hover:scale-105 transition-transform">
-            <div className="inline-block p-4 rounded-full bg-secondary/20 mb-6 group-hover:animate-wave">
-              <Award className="w-8 h-8 text-secondary" />
+            <div className="inline-block p-4 rounded-full bg-amber-100/20 mb-6 group-hover:animate-wave">
+              <Award className="w-8 h-8 text-amber-100" />
             </div>
-            <h3 className="font-didot text-xl font-semibold mb-3 text-foreground">
+            <h3 className="font-didot text-xl font-semibold mb-3 text-amber-100">
               Premium Quality
             </h3>
             <p className="text-sm text-muted-foreground font-light">
