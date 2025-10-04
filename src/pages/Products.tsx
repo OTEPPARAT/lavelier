@@ -1,13 +1,15 @@
-import productGold from "@/assets/product-gold.png";
-import productAqua from "@/assets/product-aqua.png";
-import productLimited from "@/assets/product-limited.png";
-import productBottle from "@/assets/product-bottle.png";
+import productNew1 from "@/assets/product-new-1.png";
+import productNew2 from "@/assets/product-new-2.png";
+import productNew3 from "@/assets/product-new-3.png";
+import productNew4 from "@/assets/product-new-4.png";
+import productNew5 from "@/assets/product-new-5.png";
+import productNew6 from "@/assets/product-new-6.png";
 
 const products = [
   {
     id: 1,
     name: "Lavelier Gold Renewal Cream",
-    image: productGold,
+    image: productNew1,
     description: "ครีมบำรุงผิวสูตรพรีเมี่ยมที่อุดมไปด้วยสารสกัดจากทองคำและแร่ธาตุจากทะเลลึก",
     benefits: ["ลดเลือนริ้วรอย", "เพิ่มความยืดหยุ่น", "ผิวกระจ่างใส"],
     collection: "Luxury Collection"
@@ -15,7 +17,7 @@ const products = [
   {
     id: 2,
     name: "Aquaterra Hydrating Essence",
-    image: productAqua,
+    image: productNew2,
     description: "เอสเซนส์เข้มข้นจากแร่ธาตุใต้ท้องทะเล เติมเต็มความชุ่มชื้นลึกสู่ผิว",
     benefits: ["เติมความชุ่มชื้น", "ผิวเนียนนุ่ม", "ฟื้นฟูผิว"],
     collection: "Aquaterra Collection"
@@ -23,7 +25,7 @@ const products = [
   {
     id: 3,
     name: "Limited Edition Anti-Aging Serum",
-    image: productLimited,
+    image: productNew3,
     description: "เซรั่มต้านอนุมูลอิสระสูตรพิเศษ จากความลับแห่งมหาสมุทร",
     benefits: ["ลดริ้วรอยลึก", "กระชับรูขุมขน", "ผิวเปล่งปลั่ง"],
     collection: "Limited Edition"
@@ -31,10 +33,26 @@ const products = [
   {
     id: 4,
     name: "Deep Sea Revitalizing Elixir",
-    image: productBottle,
+    image: productNew4,
     description: "น้ำยาฟื้นฟูผิวจากสารสกัดหายาก เพิ่มความเปล่งประกายให้ผิว",
     benefits: ["เพิ่มความกระจ่างใส", "ต่อต้านริ้วรอย", "ฟื้นฟูผิวหมองคล้ำ"],
     collection: "Deep Sea Collection"
+  },
+  {
+    id: 5,
+    name: "Ocean Pearl Brightening Cream",
+    image: productNew5,
+    description: "ครีมเพิ่มความกระจ่างใสจากสารสกัดไข่มุก บำรุงผิวให้เปล่งประกาย",
+    benefits: ["ผิวขาวกระจ่างใส", "ลดจุดด่างดำ", "เนียนนุ่มชุ่มชื้น"],
+    collection: "Pearl Collection"
+  },
+  {
+    id: 6,
+    name: "Marine Collagen Intense Serum",
+    image: productNew6,
+    description: "เซรั่มคอลลาเจนจากทะเลลึก ฟื้นฟูความยืดหยุ่นของผิว",
+    benefits: ["เพิ่มความยืดหยุ่น", "ลดริ้วรอยชะลอวัย", "กระชับผิว"],
+    collection: "Marine Collection"
   },
 ];
 
