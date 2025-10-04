@@ -18,7 +18,7 @@ const About = () => {
             <span className="gradient-text-aqua font-didot">The Luxurious Science of Beauty</span>
           </h2>
           
-          <div className="max-w-3xl mx-auto space-y-6 text-lg text-amber-100 leading-relaxed font-light">
+          <div className="max-w-3xl mx-auto space-y-6 text-lg text-amber-100/80 leading-relaxed font-light">
             <p>
               Lavelier คือแบรนด์ความงามระดับลักชัวรี่ที่ผสมผสานวิทยาศาสตร์สมัยใหม่
               เข้ากับความมหัศจรรย์จากธรรมชาติใต้ท้องทะเลลึก
