@@ -194,9 +194,9 @@ for your skin's timeless beauty."</p>
       </section>
 
       {/* Underwater Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-0 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="relative h-[600px] md:h-[700px]">
+          <div className="relative h-[700px] md:h-[800px]">
             <img 
               src={underwaterImage} 
               alt="Deep sea beauty" 
