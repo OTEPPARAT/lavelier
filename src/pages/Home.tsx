@@ -215,7 +215,7 @@ for your skin's timeless beauty."</p>
             src={underwaterImage} 
             alt="Deep sea beauty" 
             className="w-full h-full object-cover"
-            style={{ filter: 'brightness(1.3) contrast(1.15)' }}
+            style={{ filter: 'brightness(0.91) contrast(1.15)' }}
           />
           
           {/* Text Overlay */}
