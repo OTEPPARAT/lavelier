@@ -13,9 +13,9 @@ const Home = () => {
         
         <div className="relative z-10 container mx-auto px-4 py-32 text-center">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-float mt-20">
-            <span className="font-didot font-thin text-white">The Luxurious</span>
+            <span className="font-didot font-thin text-white text-4xl">The Luxurious</span>
             <br />
-            <span className="text-foreground font-didot font-thin">Science of Beauty</span>
+            <span className="text-foreground font-didot font-thin px-0 py-0 text-4xl">Science of Beauty</span>
           </h1>
           
           <div className="max-w-3xl mx-auto mb-12">
