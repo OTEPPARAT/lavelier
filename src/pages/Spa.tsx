@@ -70,7 +70,7 @@ const Spa = () => {
         <div 
           className="absolute opacity-60"
           style={{
-            top: '280px',
+            top: '380px',
             right: '-384px',
             width: '480%',
             height: '480%',
