@@ -81,7 +81,7 @@ const Products = () => {
             >
               <div className="relative overflow-hidden bg-gradient-to-br from-background to-muted/30 p-8">
                 <div className="absolute top-4 right-4">
-                  <span className="glass-button px-4 py-2 rounded-full text-xs font-medium text-secondary">
+                  <span className="glass-button px-4 py-2 rounded-full text-xs font-medium text-muted-foreground/60">
                     {product.collection}
                   </span>
                 </div>
@@ -94,7 +94,7 @@ const Products = () => {
               </div>
 
               <div className="p-8 pt-4">
-                <h2 className="font-didot text-2xl sm:text-3xl font-semibold mb-4 gradient-text-aqua">
+                <h2 className="font-didot text-2xl sm:text-3xl font-semibold mb-4 gradient-text-aqua opacity-50">
                   {product.name}
                 </h2>
                 
