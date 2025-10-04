@@ -152,7 +152,7 @@ const Spa = () => {
                   เลือกเวลา
                 </Label>
                 <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
-                  {timeSlots.map(time => <button key={time} type="button" onClick={() => setSelectedTime(time)} className={cn("glass-button py-2 rounded-lg text-sm transition-all hover:scale-105", selectedTime === time && "bg-secondary/20 border-secondary text-secondary")}>
+                  {timeSlots.map(time => <button key={time} type="button" onClick={() => setSelectedTime(time)} className={cn("glass-button py-2 rounded-lg text-sm transition-all hover:scale-105", selectedTime === time && "bg-secondary/20 border-secondary text-secondary")} style={selectedTime !== time ? { color: '#FFF8DC' } : {}}>
                       {time}
                     </button>)}
                 </div>
