@@ -1,4 +1,5 @@
 import { Waves, Sparkles, Heart, Award } from "lucide-react";
+import starfishBlue from "@/assets/starfish-blue.png";
 
 const About = () => {
   return (
@@ -108,6 +109,15 @@ const About = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      {/* Fixed Starfish - Bottom Left */}
+      <div className="fixed bottom-0 left-0 w-48 h-48 pointer-events-none z-50" style={{ transform: 'translate(-15%, 15%)' }}>
+        <img 
+          src={starfishBlue} 
+          alt="Starfish" 
+          className="w-full h-full object-contain"
+        />
       </div>
     </main>
   );
