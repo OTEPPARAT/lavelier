@@ -1,4 +1,3 @@
-import { Sparkles } from "lucide-react";
 import productGold from "@/assets/product-gold.png";
 import productAqua from "@/assets/product-aqua.png";
 import productLimited from "@/assets/product-limited.png";
@@ -86,9 +85,8 @@ const Products = () => {
                 </p>
 
                 <div className="space-y-3">
-                  <h3 className="text-sm font-semibold text-foreground flex items-center gap-2 font-light">
-                    <Sparkles className="w-4 h-4 text-primary" />
-                    ประโยชน์
+                  <h3 className="text-sm font-semibold text-foreground font-light">
+                    คุณสมบัติพิเศษ
                   </h3>
                   <ul className="space-y-2">
                     {product.benefits.map((benefit, index) => (
