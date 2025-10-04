@@ -179,7 +179,7 @@ for your skin's timeless beauty."</p>
             />
             
             {/* Water Light Effect */}
-            <div className="absolute top-0 left-1/4 right-1/4 h-1/3 pointer-events-none overflow-hidden rounded-t-3xl">
+            <div className="absolute top-0 left-0 w-1/2 h-1/2 pointer-events-none overflow-hidden rounded-tl-3xl">
               {[...Array(3)].map((_, i) => (
                 <div
                   key={i}
