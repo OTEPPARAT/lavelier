@@ -160,13 +160,14 @@ const Products = () => {
                 left: `${45 + i * 3}%`,
                 width: `${10 + i * 4}px`,
                 height: `${10 + i * 4}px`,
-                background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.56), rgba(120, 220, 255, 0.21) 40%, rgba(120, 220, 255, 0.07))`,
+                background: `radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.35) 15%, rgba(120, 220, 255, 0.12) 40%, rgba(120, 220, 255, 0.04))`,
                 boxShadow: `
-                  inset -5px -5px 10px rgba(255, 255, 255, 0.28),
-                  inset 5px 5px 10px rgba(0, 150, 200, 0.14),
-                  0 5px 15px rgba(100, 200, 255, 0.21)
+                  inset -5px -5px 10px rgba(255, 255, 255, 0.18),
+                  inset 5px 5px 10px rgba(0, 150, 200, 0.08),
+                  0 5px 15px rgba(100, 200, 255, 0.12),
+                  inset 2px 2px 4px rgba(255, 255, 255, 0.5)
                 `,
-                border: '1px solid rgba(255, 255, 255, 0.21)',
+                border: '1px solid rgba(255, 255, 255, 0.15)',
                 animationDelay: `${i * 0.8}s`,
                 animationDuration: `${4 + i * 0.5}s`,
               }}
