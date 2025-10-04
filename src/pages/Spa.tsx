@@ -208,7 +208,7 @@ const Spa = () => {
               </div>
 
               {/* Submit Button */}
-              <Button type="submit" className="w-full glass-button py-6 text-lg font-medium bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity">
+              <Button type="submit" className="w-full py-6 text-lg font-medium bg-gradient-to-r from-[hsl(339,75%,48%)] to-[hsl(335,70%,42%)] hover:opacity-90 transition-opacity text-white border-0">
                 ยืนยันการจอง
               </Button>
             </form>
@@ -232,7 +232,7 @@ const Spa = () => {
       </div>
       
       {/* Fixed Red Coral - Outside container for true fixed positioning */}
-      <div className="fixed bottom-0 right-0 w-64 h-64 pointer-events-none z-50" style={{ transform: 'translate(15%, 20%)' }}>
+      <div className="fixed bottom-0 right-0 w-64 h-64 pointer-events-none z-50" style={{ transform: 'translate(15%, 10%)' }}>
         <img 
           src={coralRed} 
           alt="Red Coral" 
