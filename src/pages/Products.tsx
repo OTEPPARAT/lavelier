@@ -127,7 +127,7 @@ const Products = () => {
         {/* CTA Section */}
         <div className="mt-20 text-center glass-card rounded-3xl p-12">
           <h2 className="font-serif text-3xl sm:text-4xl font-bold mb-4">
-            <span className="gradient-text-coral font-light">พบกับผลิตภัณฑ์ </span><span className="gradient-text-coral font-didot">Lavelier</span>
+            <span className="text-brand-pink font-light">พบกับผลิตภัณฑ์ </span><span className="text-brand-pink font-didot">Lavelier</span>
           </h2>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
             สัมผัสประสบการณ์ผลิตภัณฑ์ Lavelier ได้ที่เคาน์เตอร์ทุกสาขา
