@@ -171,8 +171,8 @@ for your skin's timeless beauty."</p>
       <section className="relative py-20 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <img src={underwaterImage} alt="Deep sea beauty" className="rounded-3xl shadow-2xl animate-float" />
+            <div className="relative h-[600px] md:h-[700px]">
+              <img src={underwaterImage} alt="Deep sea beauty" className="rounded-3xl shadow-2xl animate-float w-full h-full object-cover" />
             </div>
             
             <div>
