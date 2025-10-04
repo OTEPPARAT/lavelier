@@ -1,9 +1,7 @@
 import { Waves, Sparkles, Heart, Award } from "lucide-react";
 import starfishBlue from "@/assets/starfish-blue.png";
-
 const About = () => {
-  return (
-    <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-cyan-950/30 via-blue-950/40 to-slate-950/50">
+  return <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-cyan-950/30 via-blue-950/40 to-slate-950/50">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -16,7 +14,7 @@ const About = () => {
 
         {/* Brand Story */}
         <div className="glass-card rounded-3xl p-12 mb-16">
-          <h2 className="font-serif text-4xl font-bold mb-8 text-center">
+          <h2 className="font-serif text-4xl mb-8 text-center font-thin">
             <span className="gradient-text-aqua font-didot">The Luxurious Science of Beauty</span>
           </h2>
           
@@ -112,15 +110,11 @@ const About = () => {
       </div>
 
       {/* Fixed Starfish - Bottom Left */}
-      <div className="fixed bottom-0 left-0 w-48 h-48 pointer-events-none z-50" style={{ transform: 'translate(-15%, 15%)' }}>
-        <img 
-          src={starfishBlue} 
-          alt="Starfish" 
-          className="w-full h-full object-contain"
-        />
+      <div className="fixed bottom-0 left-0 w-48 h-48 pointer-events-none z-50" style={{
+      transform: 'translate(-15%, 15%)'
+    }}>
+        <img src={starfishBlue} alt="Starfish" className="w-full h-full object-contain" />
       </div>
-    </main>
-  );
+    </main>;
 };
-
 export default About;
