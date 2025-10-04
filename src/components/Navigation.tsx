@@ -33,8 +33,8 @@ const Navigation = () => {
                 to={link.path}
                 className={`text-sm font-light transition-all duration-300 relative group ${
                   isActive(link.path)
-                    ? "text-secondary"
-                    : "text-foreground hover:text-secondary"
+                    ? "text-amber-50/80"
+                    : "text-amber-50/80 hover:text-amber-50"
                 }`}
               >
                 {link.label}
@@ -74,8 +74,8 @@ const Navigation = () => {
                   onClick={() => setIsOpen(false)}
                   className={`text-base font-light py-2 px-4 rounded-lg transition-all ${
                     isActive(link.path)
-                      ? "bg-secondary/20 text-secondary"
-                      : "text-foreground hover:bg-muted hover:text-secondary"
+                      ? "bg-secondary/20 text-amber-50/80"
+                      : "text-amber-50/80 hover:bg-muted hover:text-amber-50"
                   }`}
                 >
                   {link.label}

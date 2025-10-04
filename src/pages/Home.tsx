@@ -32,10 +32,10 @@ for your skin's timeless beauty."</p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/products" className="glass-button px-8 py-4 rounded-full text-foreground font-light hover:scale-105 transition-transform">
+            <Link to="/products" className="glass-button px-8 py-4 rounded-full text-amber-50/80 font-light hover:scale-105 transition-transform">
               สำรวจผลิตภัณฑ์
             </Link>
-            <Link to="/spa" className="glass-button px-8 py-4 rounded-full bg-secondary/20 text-secondary font-light hover:scale-105 transition-transform border-secondary/50">
+            <Link to="/spa" className="glass-button px-8 py-4 rounded-full bg-secondary/20 text-amber-50/80 font-light hover:scale-105 transition-transform border-secondary/50">
               จองสปา
             </Link>
           </div>
