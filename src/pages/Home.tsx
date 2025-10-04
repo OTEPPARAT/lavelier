@@ -96,7 +96,7 @@ for your skin's timeless beauty."</p>
       </section>
 
       {/* Features Section */}
-      <section className="py-20 relative overflow-hidden bg-gradient-to-b from-blue-500/10 via-transparent to-transparent">
+      <section className="py-20 relative overflow-hidden bg-gradient-to-b from-cyan-950/50 via-blue-950/60 to-slate-950/70">
         {/* Animated Light Blobs */}
         <div className="absolute inset-0 pointer-events-none">
           <div 
