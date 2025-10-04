@@ -104,7 +104,7 @@ const Spa = () => {
             </h2>
             
             <div className="space-y-4">
-              {spaPackages.map(pkg => <button key={pkg.id} onClick={() => setSelectedPackage(pkg.name)} className={cn("w-full glass-card rounded-2xl p-6 text-left transition-all hover:scale-[1.02]", selectedPackage === pkg.name && "border-secondary border-2 bg-secondary/10")}>
+              {spaPackages.map(pkg => <button key={pkg.id} onClick={() => setSelectedPackage(pkg.name)} className={cn("w-full glass-card rounded-2xl p-6 text-left transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(255,237,160,0.4),0_0_60px_rgba(255,255,255,0.2)]", selectedPackage === pkg.name && "border-secondary border-2 bg-secondary/10")}>
                   <div className="flex items-start justify-between mb-3">
                     <h3 className="font-didot text-xl font-semibold" style={{ color: '#FFF8DC' }}>
                       {pkg.name}
@@ -134,7 +134,7 @@ const Spa = () => {
                 </Label>
                 <Popover>
                   <PopoverTrigger asChild>
-                    <Button variant="outline" className={cn("w-full justify-start text-left font-normal glass-button border-border", !date && "text-muted-foreground")}>
+                    <Button variant="outline" className={cn("w-full justify-start text-left font-normal glass-button border-border hover:text-white hover:shadow-[0_0_20px_rgba(255,237,160,0.3),0_0_40px_rgba(255,255,255,0.15)] transition-all", !date && "text-muted-foreground")}>
                       {date ? format(date, "PPP", {
                       locale: th
                     }) : "เลือกวันที่"}
