@@ -92,7 +92,7 @@ const Spa = () => {
       notes: ""
     });
   };
-  return <main className="relative min-h-screen pt-32 pb-20 bg-gradient-to-b from-cyan-950/70 via-blue-950/80 to-slate-950/90" style={{ overflow: 'visible' }}>
+  return <main className="relative min-h-screen pt-32 pb-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950" style={{ overflow: 'visible' }}>
       {/* Background Shell Image */}
       <div className="absolute inset-0 pointer-events-none" style={{ overflow: 'visible' }}>
         <div 
@@ -252,7 +252,12 @@ const Spa = () => {
             {spaRooms.map(room => (
               <div 
                 key={room.id} 
-                className="glass-card rounded-2xl overflow-hidden transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(255,237,160,0.4),0_0_60px_rgba(255,255,255,0.2)]"
+                className="rounded-2xl overflow-hidden transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(255,237,160,0.4),0_0_60px_rgba(255,255,255,0.2)]"
+                style={{
+                  background: 'rgba(30, 41, 59, 0.3)',
+                  backdropFilter: 'blur(16px)',
+                  border: '1px solid rgba(255, 255, 255, 0.05)'
+                }}
               >
                 <div className="aspect-[4/3] relative overflow-hidden">
                   <img 
