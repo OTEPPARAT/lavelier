@@ -112,7 +112,7 @@ const Products = () => {
                         key={index}
                         className="text-sm text-muted-foreground flex items-center gap-2 font-light"
                       >
-                        <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-100/80" />
                         {benefit}
                       </li>
                     ))}
