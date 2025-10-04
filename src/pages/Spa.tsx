@@ -90,8 +90,8 @@ const Spa = () => {
             <br />
             <span className="gradient-text-aqua font-light">Aquaterra Lounge</span>
           </h1>
-          <p className="text-lg max-w-2xl mx-auto font-light whitespace-nowrap" style={{ color: '#FFF8DC' }}>
-            สัมผัสประสบการณ์สปาระดับโลก ด้วยนวัตกรรมจากท้องทะเลลึก
+          <p className="text-lg max-w-2xl mx-auto font-light" style={{ color: '#FFF8DC' }}>
+            สัมผัสประสบการณ์สปาระดับโลก<br />ด้วยนวัตกรรมจากท้องทะเลลึก
           </p>
         </div>
 
