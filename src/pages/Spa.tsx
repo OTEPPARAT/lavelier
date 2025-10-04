@@ -230,7 +230,7 @@ const Spa = () => {
           </p>
           
           {/* Fixed Red Coral */}
-          <div className="fixed bottom-8 right-8 w-32 h-32 pointer-events-none z-50">
+          <div className="fixed bottom-0 right-0 w-80 h-80 pointer-events-none z-50" style={{ transform: 'translate(25%, 25%)' }}>
             <img 
               src={coralRed} 
               alt="Red Coral" 
