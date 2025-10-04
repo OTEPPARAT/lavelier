@@ -57,7 +57,7 @@ for your skin's timeless beauty."</p>
               <div className="inline-block p-4 rounded-full bg-cyan-500/20 mb-6 group-hover:animate-wave">
                 <Droplets className="w-8 h-8 text-cyan-400" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-cyan-300/90">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-cyan-300/70">
                 Deep Sea Treasures
               </h3>
               <p className="text-muted-foreground">
@@ -72,7 +72,7 @@ for your skin's timeless beauty."</p>
               <div className="inline-block p-4 rounded-full bg-teal-600/20 mb-6 group-hover:animate-wave">
                 <Sparkles className="w-8 h-8 text-teal-500" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-teal-400/90">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-teal-400/70">
                 Spa Collection
               </h3>
               <p className="text-muted-foreground">
@@ -87,7 +87,7 @@ for your skin's timeless beauty."</p>
               <div className="inline-block p-4 rounded-full bg-rose-400/20 mb-6 group-hover:animate-wave">
                 <Heart className="w-8 h-8 text-rose-400" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-rose-300/90">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-rose-300/70">
                 Serum Collection
               </h3>
               <p className="text-muted-foreground">
@@ -102,7 +102,7 @@ for your skin's timeless beauty."</p>
               <div className="inline-block p-4 rounded-full bg-yellow-600/20 mb-6 group-hover:animate-wave">
                 <Crown className="w-8 h-8 text-yellow-600" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-yellow-500/90">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-yellow-500/70">
                 Limited Edition
               </h3>
               <p className="text-muted-foreground">
