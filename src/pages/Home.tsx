@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Sparkles, Droplets, Heart } from "lucide-react";
 import heroImage from "@/assets/hero-underwater.png";
 import underwaterImage from "@/assets/hero-coral.png";
+import deepSeaProducts from "@/assets/deep-sea-products.png";
 const Home = () => {
   return <main className="min-h-screen">
       {/* Hero Section */}
@@ -46,7 +47,10 @@ for your skin's timeless beauty."</p>
       <section className="py-20 relative overflow-hidden bg-gradient-to-b from-blue-500/10 via-transparent to-transparent">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform">
+            <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform overflow-hidden">
+              <div className="mb-6 rounded-xl overflow-hidden">
+                <img src={deepSeaProducts} alt="Deep Sea Treasures" className="w-full h-48 object-cover" />
+              </div>
               <div className="inline-block p-4 rounded-full bg-primary/20 mb-6 group-hover:animate-wave">
                 <Droplets className="w-8 h-8 text-primary" />
               </div>
