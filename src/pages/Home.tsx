@@ -6,8 +6,9 @@ const Home = () => {
   return <main className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center" style={{
-        backgroundImage: `url(${heroImage})`
+        <div className="absolute inset-0 bg-cover" style={{
+        backgroundImage: `url(${heroImage})`,
+        backgroundPosition: 'center bottom'
       }} />
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/50" />
