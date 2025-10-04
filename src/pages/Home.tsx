@@ -12,7 +12,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/50" />
         
         <div className="relative z-10 container mx-auto px-4 py-32 text-center">
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 animate-float">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-float mt-20">
             <span className="font-didot font-thin text-white">The Luxurious</span>
             <br />
             <span className="text-foreground font-didot font-thin">Science of Beauty</span>
