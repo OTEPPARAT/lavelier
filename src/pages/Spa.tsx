@@ -87,7 +87,7 @@ const Spa = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl mb-6 font-thin">
-            <span className="gradient-text-coral font-light">Lavelier</span>
+            <span className="gradient-text-brand-pink font-light">Lavelier</span>
             <br />
             <span className="gradient-text-aqua font-light">Aquaterra Lounge</span>
           </h1>
@@ -121,7 +121,7 @@ const Spa = () => {
 
           {/* Booking Form */}
           <div className="glass-card rounded-3xl p-8">
-            <h2 className="font-serif text-3xl font-light mb-8 gradient-text-coral">
+            <h2 className="font-serif text-3xl font-light mb-8 gradient-text-brand-pink">
               จองคิว
             </h2>
 
