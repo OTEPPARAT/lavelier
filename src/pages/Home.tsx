@@ -55,9 +55,9 @@ for your skin's timeless beauty."</p>
                 <img src={deepSeaProducts} alt="Deep Sea Treasures" className="w-full h-auto" />
               </div>
               <div className="inline-block p-4 rounded-full bg-cyan-500/20 mb-6 group-hover:animate-wave">
-                <Droplets className="w-8 h-8 text-cyan-400" />
+                <Droplets className="w-8 h-8 text-cyan-400/80" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-cyan-300/70">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-cyan-300/80">
                 Deep Sea Treasures
               </h3>
               <p className="text-muted-foreground">
@@ -70,9 +70,9 @@ for your skin's timeless beauty."</p>
                 <img src={spaGreenProducts} alt="Spa Collection" className="w-full h-auto" />
               </div>
               <div className="inline-block p-4 rounded-full bg-teal-600/20 mb-6 group-hover:animate-wave">
-                <Sparkles className="w-8 h-8 text-teal-500" />
+                <Sparkles className="w-8 h-8 text-teal-500/80" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-teal-400/70">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-teal-400/80">
                 Spa Collection
               </h3>
               <p className="text-muted-foreground">
@@ -85,9 +85,9 @@ for your skin's timeless beauty."</p>
                 <img src={serumPinkProducts} alt="Serum Collection" className="w-full h-auto" />
               </div>
               <div className="inline-block p-4 rounded-full bg-rose-400/20 mb-6 group-hover:animate-wave">
-                <Heart className="w-8 h-8 text-rose-400" />
+                <Heart className="w-8 h-8 text-rose-400/80" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-rose-300/70">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-rose-300/80">
                 Serum Collection
               </h3>
               <p className="text-muted-foreground">
@@ -100,9 +100,9 @@ for your skin's timeless beauty."</p>
                 <img src={limitedGoldProducts} alt="Limited Edition" className="w-full h-auto" />
               </div>
               <div className="inline-block p-4 rounded-full bg-yellow-600/20 mb-6 group-hover:animate-wave">
-                <Crown className="w-8 h-8 text-yellow-600" />
+                <Crown className="w-8 h-8 text-yellow-600/80" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-yellow-500/70">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-yellow-500/80">
                 Limited Edition
               </h3>
               <p className="text-muted-foreground">
