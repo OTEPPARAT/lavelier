@@ -31,7 +31,7 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-all duration-300 relative group ${
+                className={`text-sm font-light transition-all duration-300 relative group ${
                   isActive(link.path)
                     ? "text-secondary"
                     : "text-foreground hover:text-secondary"
@@ -72,7 +72,7 @@ const Navigation = () => {
                   key={link.path}
                   to={link.path}
                   onClick={() => setIsOpen(false)}
-                  className={`text-base font-medium py-2 px-4 rounded-lg transition-all ${
+                  className={`text-base font-light py-2 px-4 rounded-lg transition-all ${
                     isActive(link.path)
                       ? "bg-secondary/20 text-secondary"
                       : "text-foreground hover:bg-muted hover:text-secondary"
