@@ -123,10 +123,10 @@ for your skin's timeless beauty."</p>
               <div className="mb-6 rounded-xl overflow-hidden">
                 <img src={spaGreenProducts} alt="Spa Collection" className="w-full h-auto" />
               </div>
-              <div className="inline-block p-4 rounded-full mb-6 group-hover:animate-wave" style={{ backgroundColor: 'rgba(73, 83, 80, 0.25)' }}>
-                <Sparkles className="w-8 h-8" style={{ color: '#495350' }} />
+              <div className="inline-block p-4 rounded-full mb-6 group-hover:animate-wave" style={{ backgroundColor: 'rgba(165, 180, 182, 0.25)' }}>
+                <Sparkles className="w-8 h-8" style={{ color: '#A5B4B6' }} />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4" style={{ color: '#495350' }}>
+              <h3 className="font-didot text-2xl font-semibold mb-4" style={{ color: '#A5B4B6' }}>
                 Spa Collection
               </h3>
               <p className="text-muted-foreground font-light">
