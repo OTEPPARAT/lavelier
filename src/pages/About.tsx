@@ -3,12 +3,12 @@ import starfishBlue from "@/assets/starfish-blue.png";
 
 const About = () => {
   return (
-    <main className="min-h-screen pt-32 pb-20">
+    <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-cyan-950/30 via-blue-950/40 to-slate-950/50">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text-coral font-light">รู้จักเรา</span>
+            <span className="gradient-text-brand-pink font-light">รู้จักเรา</span>
             <br />
             <span className="text-foreground font-didot">Lavelier</span>
           </h1>
@@ -112,7 +112,7 @@ const About = () => {
       </div>
 
       {/* Fixed Starfish - Bottom Left */}
-      <div className="fixed bottom-0 left-0 w-48 h-48 pointer-events-none z-50" style={{ transform: 'translate(-25%, 15%)' }}>
+      <div className="fixed bottom-0 left-0 w-48 h-48 pointer-events-none z-50" style={{ transform: 'translate(-15%, 15%)' }}>
         <img 
           src={starfishBlue} 
           alt="Starfish" 
