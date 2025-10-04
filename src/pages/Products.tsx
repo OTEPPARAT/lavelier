@@ -68,7 +68,7 @@ const Products = () => {
             <span className="text-foreground font-didot">Lavelier</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light">
-            ค้นพบคอลเลกชันครีมบำรุงผิวพรีเมี่ยม จากส่วนผสมแห่งท้องทะเลลึก
+            ค้นพบคอลเลกชันครีมบำรุงผิวพรีเมี่ยม<br />จากส่วนผสมแห่งท้องทะเลลึก
           </p>
         </div>
 
