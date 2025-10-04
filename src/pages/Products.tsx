@@ -77,7 +77,7 @@ const Products = () => {
           {products.map((product) => (
             <article
               key={product.id}
-              className="glass-card rounded-3xl overflow-hidden group hover:scale-[1.02] transition-transform duration-500"
+              className="glass-card rounded-3xl overflow-hidden group hover:scale-[1.02] transition-transform duration-500 opacity-70"
             >
               <div className="relative overflow-hidden bg-gradient-to-br from-background to-muted/30 p-8">
                 <div className="absolute top-4 right-4">
@@ -98,7 +98,7 @@ const Products = () => {
                   {product.name}
                 </h2>
                 
-                <p className="text-amber-200/80 mb-6 leading-relaxed font-light">
+                <p className="text-stone-300/80 mb-6 leading-relaxed font-light">
                   {product.description}
                 </p>
 
