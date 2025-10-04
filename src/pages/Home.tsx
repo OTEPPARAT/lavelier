@@ -263,11 +263,11 @@ for your skin's timeless beauty."</p>
                   <span className="font-didot">secrets of youth</span>
                 </h2>
                 
-                <p className="text-lg mb-8 leading-relaxed font-light text-slate-50">ลาวีเลียร์นำสารสกัดจากปะการังลำค่าและสร้างสรรค์เป็นสูตรลับแห่ง ความงามด้วยวิทยาการล้ำหน้าที่สุดเพื่อผิวที่ออนเยาว์และเปล่งประกาย เหนือกาลเวลา... ค้นพบส่มผสมแห่งผิวที่แตกต่างในครูที่แรกที่เคาน์เตอร์ Lavelier ทุกสาขา </p>
+                <p className="text-lg mb-8 leading-relaxed font-light text-slate-50">ลาวิเลียร์นำสารสกัดจากปะการังล้ำค่าสร้างสรรค์เป็นสูตรลับแห่งความงามด้วยวิทยาการล้ำหน้าที่สุดเพื่อผิวที่อ่อนเยาว์และเปล่งประกาย เหนือกาลเวลา... ค้นพบสัมผัสแห่งผิวที่แตกต่างในครั้งแรกที่แรกที่เคาน์เตอร์ Lavelier ทุกสาขา </p>
 
-                <p className="text-base text-secondary font-light mb-4">พร้อมประสบการณ์ด้าติ่งสุดการพิมพ์ฟิวชั่นลึกในสปาส่วนตัวที่</p>
+                <p className="text-base text-secondary font-light mb-4">พร้อมประสบการณ์ดำดิ่งสู่ผิวใสล้ำลึกในสปาส่วนตัวที่</p>
                 
-                <p className="font-didot text-2xl gradient-text-aqua">
+                <p className="font-didot gradient-text-aqua text-2xl">
                   Lavelier Aquaterra Lounge เซ็นทรัลเวิร์ล
                 </p>
               </div>
