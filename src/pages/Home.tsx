@@ -15,7 +15,7 @@ const Home = () => {
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 animate-float">
             <span className="font-didot font-thin text-white">The Luxurious</span>
             <br />
-            <span className="text-foreground font-thin">Science of Beauty</span>
+            <span className="text-foreground font-didot font-thin">Science of Beauty</span>
           </h1>
           
           <div className="max-w-3xl mx-auto mb-12">
