@@ -10,32 +10,23 @@ import { format } from "date-fns";
 import { th } from "date-fns/locale";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
-
-const spaPackages = [
-  {
-    id: 1,
-    name: "Deep Sea Facial",
-    duration: "90 นาที",
-    description: "ทรีทเมนต์ผิวหน้าสูตรพิเศษจากสารสกัดทะเลลึก",
-  },
-  {
-    id: 2,
-    name: "Aquaterra Body Treatment",
-    duration: "120 นาที",
-    description: "การบำรุงผิวกายเต็มรูปแบบด้วยแร่ธาตุจากมหาสมุทร",
-  },
-  {
-    id: 3,
-    name: "Coral Renewal Therapy",
-    duration: "150 นาที",
-    description: "ทรีทเมนต์ฟื้นฟูผิวระดับพรีเมี่ยมด้วยสารสกัดจากปะการัง",
-  },
-];
-
-const timeSlots = [
-  "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00"
-];
-
+const spaPackages = [{
+  id: 1,
+  name: "Deep Sea Facial",
+  duration: "90 นาที",
+  description: "ทรีทเมนต์ผิวหน้าสูตรพิเศษจากสารสกัดทะเลลึก"
+}, {
+  id: 2,
+  name: "Aquaterra Body Treatment",
+  duration: "120 นาที",
+  description: "การบำรุงผิวกายเต็มรูปแบบด้วยแร่ธาตุจากมหาสมุทร"
+}, {
+  id: 3,
+  name: "Coral Renewal Therapy",
+  duration: "150 นาที",
+  description: "ทรีทเมนต์ฟื้นฟูผิวระดับพรีเมี่ยมด้วยสารสกัดจากปะการัง"
+}];
+const timeSlots = ["10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00"];
 const Spa = () => {
   const [date, setDate] = useState<Date>();
   const [selectedTime, setSelectedTime] = useState<string>("");
@@ -44,12 +35,10 @@ const Spa = () => {
     name: "",
     phone: "",
     email: "",
-    notes: "",
+    notes: ""
   });
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
     if (!date || !selectedTime || !selectedPackage || !formData.name || !formData.phone) {
       toast.error("กรุณากรอกข้อมูลให้ครบถ้วน");
       return;
@@ -57,27 +46,32 @@ const Spa = () => {
 
     // Here you would normally send the data to Lovable Cloud
     toast.success("ส่งคำขอจองสำเร็จ! เราจะติดต่อกลับเร็วๆ นี้", {
-      description: `วันที่: ${format(date, "PPP", { locale: th })} เวลา: ${selectedTime}`,
+      description: `วันที่: ${format(date, "PPP", {
+        locale: th
+      })} เวลา: ${selectedTime}`
     });
 
     // Reset form
     setDate(undefined);
     setSelectedTime("");
     setSelectedPackage("");
-    setFormData({ name: "", phone: "", email: "", notes: "" });
+    setFormData({
+      name: "",
+      phone: "",
+      email: "",
+      notes: ""
+    });
   };
-
-  return (
-    <main className="min-h-screen pt-32 pb-20">
+  return <main className="min-h-screen pt-32 pb-20">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text-coral font-didot">Lavelier</span>
+          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl mb-6 font-thin">
+            <span className="gradient-text-coral">Lavelier</span>
             <br />
-            <span className="gradient-text-aqua font-didot">Aquaterra Lounge</span>
+            <span className="gradient-text-aqua">Aquaterra Lounge</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             สัมผัสประสบการณ์สปาระดับโลก ด้วยนวัตกรรมจากท้องทะเลลึก
           </p>
         </div>
@@ -85,38 +79,29 @@ const Spa = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Spa Packages */}
           <div>
-            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-aqua font-light">
+            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-aqua">
               แพ็คเกจสปา
             </h2>
             
             <div className="space-y-4">
-              {spaPackages.map((pkg) => (
-                <button
-                  key={pkg.id}
-                  onClick={() => setSelectedPackage(pkg.name)}
-                  className={cn(
-                    "w-full glass-card rounded-2xl p-6 text-left transition-all hover:scale-[1.02]",
-                    selectedPackage === pkg.name && "border-secondary border-2 bg-secondary/10"
-                  )}
-                >
+              {spaPackages.map(pkg => <button key={pkg.id} onClick={() => setSelectedPackage(pkg.name)} className={cn("w-full glass-card rounded-2xl p-6 text-left transition-all hover:scale-[1.02]", selectedPackage === pkg.name && "border-secondary border-2 bg-secondary/10")}>
                   <div className="flex items-start justify-between mb-3">
-                    <h3 className="font-didot text-xl font-semibold text-foreground">
+                    <h3 className="font-serif text-xl font-semibold text-foreground">
                       {pkg.name}
                     </h3>
-                    <span className="glass-button px-3 py-1 rounded-full text-xs text-secondary flex items-center gap-1 font-light">
+                    <span className="glass-button px-3 py-1 rounded-full text-xs text-secondary flex items-center gap-1">
                       <Clock className="w-3 h-3" />
                       {pkg.duration}
                     </span>
                   </div>
-                  <p className="text-sm text-muted-foreground font-light">{pkg.description}</p>
-                </button>
-              ))}
+                  <p className="text-sm text-muted-foreground">{pkg.description}</p>
+                </button>)}
             </div>
           </div>
 
           {/* Booking Form */}
           <div className="glass-card rounded-3xl p-8">
-            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-coral font-light">
+            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-coral">
               จองคิว
             </h2>
 
@@ -129,25 +114,14 @@ const Spa = () => {
                 </Label>
                 <Popover>
                   <PopoverTrigger asChild>
-                    <Button
-                      variant="outline"
-                      className={cn(
-                        "w-full justify-start text-left font-normal glass-button border-border",
-                        !date && "text-muted-foreground"
-                      )}
-                    >
-                      {date ? format(date, "PPP", { locale: th }) : "เลือกวันที่"}
+                    <Button variant="outline" className={cn("w-full justify-start text-left font-normal glass-button border-border", !date && "text-muted-foreground")}>
+                      {date ? format(date, "PPP", {
+                      locale: th
+                    }) : "เลือกวันที่"}
                     </Button>
                   </PopoverTrigger>
                   <PopoverContent className="w-auto p-0 glass-card border-border" align="start">
-                    <CalendarComponent
-                      mode="single"
-                      selected={date}
-                      onSelect={setDate}
-                      disabled={(date) => date < new Date()}
-                      initialFocus
-                      className="pointer-events-auto"
-                    />
+                    <CalendarComponent mode="single" selected={date} onSelect={setDate} disabled={date => date < new Date()} initialFocus className="pointer-events-auto" />
                   </PopoverContent>
                 </Popover>
               </div>
@@ -159,19 +133,9 @@ const Spa = () => {
                   เลือกเวลา
                 </Label>
                 <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
-                  {timeSlots.map((time) => (
-                    <button
-                      key={time}
-                      type="button"
-                      onClick={() => setSelectedTime(time)}
-                      className={cn(
-                        "glass-button py-2 rounded-lg text-sm transition-all hover:scale-105",
-                        selectedTime === time && "bg-secondary/20 border-secondary text-secondary"
-                      )}
-                    >
+                  {timeSlots.map(time => <button key={time} type="button" onClick={() => setSelectedTime(time)} className={cn("glass-button py-2 rounded-lg text-sm transition-all hover:scale-105", selectedTime === time && "bg-secondary/20 border-secondary text-secondary")}>
                       {time}
-                    </button>
-                  ))}
+                    </button>)}
                 </div>
               </div>
 
@@ -181,13 +145,10 @@ const Spa = () => {
                   <User className="w-4 h-4 text-secondary" />
                   ชื่อ-นามสกุล
                 </Label>
-                <Input
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="glass-button border-border"
-                  placeholder="กรอกชื่อ-นามสกุล"
-                  required
-                />
+                <Input value={formData.name} onChange={e => setFormData({
+                ...formData,
+                name: e.target.value
+              })} className="glass-button border-border" placeholder="กรอกชื่อ-นามสกุล" required />
               </div>
 
               {/* Phone */}
@@ -196,14 +157,10 @@ const Spa = () => {
                   <Phone className="w-4 h-4 text-secondary" />
                   เบอร์โทรศัพท์
                 </Label>
-                <Input
-                  type="tel"
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  className="glass-button border-border"
-                  placeholder="0XX-XXX-XXXX"
-                  required
-                />
+                <Input type="tel" value={formData.phone} onChange={e => setFormData({
+                ...formData,
+                phone: e.target.value
+              })} className="glass-button border-border" placeholder="0XX-XXX-XXXX" required />
               </div>
 
               {/* Email */}
@@ -212,13 +169,10 @@ const Spa = () => {
                   <Mail className="w-4 h-4 text-secondary" />
                   อีเมล (ไม่บังคับ)
                 </Label>
-                <Input
-                  type="email"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="glass-button border-border"
-                  placeholder="your@email.com"
-                />
+                <Input type="email" value={formData.email} onChange={e => setFormData({
+                ...formData,
+                email: e.target.value
+              })} className="glass-button border-border" placeholder="your@email.com" />
               </div>
 
               {/* Notes */}
@@ -227,20 +181,14 @@ const Spa = () => {
                   <Sparkles className="w-4 h-4 text-secondary" />
                   หมายเหตุ (ไม่บังคับ)
                 </Label>
-                <Textarea
-                  value={formData.notes}
-                  onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
-                  className="glass-button border-border resize-none"
-                  placeholder="ข้อมูลเพิ่มเติม..."
-                  rows={3}
-                />
+                <Textarea value={formData.notes} onChange={e => setFormData({
+                ...formData,
+                notes: e.target.value
+              })} className="glass-button border-border resize-none" placeholder="ข้อมูลเพิ่มเติม..." rows={3} />
               </div>
 
               {/* Submit Button */}
-              <Button
-                type="submit"
-                className="w-full glass-button py-6 text-lg font-medium bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity"
-              >
+              <Button type="submit" className="w-full glass-button py-6 text-lg font-medium bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity">
                 ยืนยันการจอง
               </Button>
             </form>
@@ -250,20 +198,18 @@ const Spa = () => {
         {/* Location Info */}
         <div className="mt-20 glass-card rounded-3xl p-12 text-center">
           <h2 className="font-serif text-3xl font-bold mb-4">
-            <span className="gradient-text-aqua font-light">ที่ตั้ง</span>
+            <span className="gradient-text-aqua">ที่ตั้ง</span>
           </h2>
-          <p className="text-xl text-foreground mb-2 font-didot">Lavelier Aquaterra Lounge</p>
-          <p className="text-muted-foreground mb-6 font-light">
+          <p className="text-xl text-foreground mb-2">Lavelier Aquaterra Lounge</p>
+          <p className="text-muted-foreground mb-6">
             เซ็นทรัลเวิร์ล ชั้น 7<br />
             เปิดทุกวัน 10:00 - 20:00 น.
           </p>
-          <p className="text-secondary font-light">
+          <p className="text-secondary font-medium">
             โทร: 02-XXX-XXXX
           </p>
         </div>
       </div>
-    </main>
-  );
+    </main>;
 };
-
 export default Spa;
