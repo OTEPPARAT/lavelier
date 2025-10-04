@@ -11,6 +11,7 @@ import { th } from "date-fns/locale";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 import nautilusShell from "@/assets/nautilus-shell-clean.png";
+import coralRed from "@/assets/coral-red.png";
 
 const spaPackages = [{
   id: 1,
@@ -215,7 +216,7 @@ const Spa = () => {
         </div>
 
         {/* Location Info */}
-        <div className="mt-20 glass-card rounded-3xl p-12 text-center">
+        <div className="mt-20 glass-card rounded-3xl p-12 text-center relative overflow-visible">
           <h2 className="font-serif text-3xl font-light mb-4">
             <span className="gradient-text-aqua font-light">ที่ตั้ง</span>
           </h2>
@@ -227,6 +228,15 @@ const Spa = () => {
           <p className="text-secondary font-light">
             โทร: 02-XXX-XXXX
           </p>
+          
+          {/* Fixed Red Coral */}
+          <div className="fixed bottom-8 right-8 w-32 h-32 pointer-events-none z-50">
+            <img 
+              src={coralRed} 
+              alt="Red Coral" 
+              className="w-full h-full object-contain"
+            />
+          </div>
         </div>
       </div>
     </main>;
