@@ -17,6 +17,30 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/50" />
         
+        {/* Floating Bubbles */}
+        <div className="absolute inset-0 pointer-events-none">
+          {[...Array(12)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute bottom-0 rounded-full animate-bubble"
+              style={{
+                left: `${10 + i * 7}%`,
+                width: `${6 + i * 2}px`,
+                height: `${6 + i * 2}px`,
+                background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.6), rgba(120, 220, 255, 0.2) 40%, rgba(120, 220, 255, 0.05))`,
+                boxShadow: `
+                  inset -3px -3px 6px rgba(255, 255, 255, 0.3),
+                  inset 3px 3px 6px rgba(0, 150, 200, 0.15),
+                  0 3px 10px rgba(100, 200, 255, 0.2)
+                `,
+                border: '1px solid rgba(255, 255, 255, 0.2)',
+                animationDelay: `${i * 1.2}s`,
+                animationDuration: `${8 + i * 0.8}s`,
+              }}
+            />
+          ))}
+        </div>
+        
         <div className="relative z-10 container mx-auto px-4 py-32 text-center">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-float mt-20">
             <span className="font-didot font-thin text-white text-4xl">The Luxurious</span>
