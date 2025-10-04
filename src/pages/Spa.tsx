@@ -254,8 +254,6 @@ const Spa = () => {
                 key={room.id} 
                 className="rounded-2xl overflow-hidden transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(255,237,160,0.4),0_0_60px_rgba(255,255,255,0.2)]"
                 style={{
-                  background: 'rgba(30, 41, 59, 0.3)',
-                  backdropFilter: 'blur(16px)',
                   border: '1px solid rgba(255, 255, 255, 0.05)'
                 }}
               >
@@ -266,7 +264,10 @@ const Spa = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="p-4">
+                <div className="p-4" style={{ 
+                  background: 'rgba(30, 41, 59, 0.4)',
+                  backdropFilter: 'blur(10px)'
+                }}>
                   <h3 className="font-serif text-xl font-light text-center" style={{ color: '#FFF8DC' }}>
                     {room.name}
                   </h3>
