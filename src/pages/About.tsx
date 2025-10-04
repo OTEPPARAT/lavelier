@@ -7,7 +7,7 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text-coral font-light">เกี่ยวกับ</span>
+            <span className="gradient-text-coral font-light">รู้จักเรา</span>
             <br />
             <span className="text-foreground font-didot">Lavelier</span>
           </h1>
@@ -92,7 +92,7 @@ const About = () => {
         {/* Philosophy */}
         <div className="glass-card rounded-3xl p-12 text-center">
           <h2 className="font-serif text-4xl font-bold mb-6">
-            <span className="gradient-text-coral font-didot">Our Philosophy</span>
+            <span className="gradient-text-brand-pink font-didot">Our Philosophy</span>
           </h2>
           
           <p className="text-xl text-foreground mb-8 italic max-w-3xl mx-auto font-light">
