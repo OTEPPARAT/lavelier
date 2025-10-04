@@ -43,7 +43,7 @@ for your skin's timeless beauty."</p>
       </section>
 
       {/* Features Section */}
-      <section className="py-20 relative overflow-hidden">
+      <section className="py-20 relative overflow-hidden bg-gradient-to-b from-blue-500/10 via-transparent to-transparent">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform">
