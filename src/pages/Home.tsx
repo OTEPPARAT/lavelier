@@ -47,14 +47,27 @@ const Home = () => {
         
         {/* Floating Bubbles */}
         <div className="absolute inset-0 pointer-events-none">
-          {[...Array(12)].map((_, i) => (
+          {[
+            { left: '5%', size: 8, delay: 0 },
+            { left: '15%', size: 12, delay: 1.5 },
+            { left: '25%', size: 10, delay: 3 },
+            { left: '38%', size: 14, delay: 0.8 },
+            { left: '48%', size: 9, delay: 2.2 },
+            { left: '58%', size: 16, delay: 1.2 },
+            { left: '68%', size: 11, delay: 3.5 },
+            { left: '78%', size: 13, delay: 0.5 },
+            { left: '85%', size: 10, delay: 2.8 },
+            { left: '92%', size: 15, delay: 1.8 },
+            { left: '12%', size: 7, delay: 4 },
+            { left: '72%', size: 8, delay: 2.5 },
+          ].map((bubble, i) => (
             <div
               key={i}
               className="absolute bottom-0 rounded-full animate-bubble"
               style={{
-                left: `${10 + i * 7}%`,
-                width: `${6 + i * 2}px`,
-                height: `${6 + i * 2}px`,
+                left: bubble.left,
+                width: `${bubble.size}px`,
+                height: `${bubble.size}px`,
                 background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.4), rgba(120, 220, 255, 0.14) 40%, rgba(120, 220, 255, 0.03))`,
                 boxShadow: `
                   inset -3px -3px 6px rgba(255, 255, 255, 0.2),
@@ -62,7 +75,7 @@ const Home = () => {
                   0 3px 10px rgba(100, 200, 255, 0.14)
                 `,
                 border: '1px solid rgba(255, 255, 255, 0.14)',
-                animationDelay: `${i * 1.2}s`,
+                animationDelay: `${bubble.delay}s`,
                 animationDuration: `${8 + i * 0.8}s`,
               }}
             />
