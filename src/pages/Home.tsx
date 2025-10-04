@@ -13,7 +13,7 @@ const Home = () => {
         
         <div className="relative z-10 container mx-auto px-4 py-32 text-center">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 animate-float">
-            <span className="gradient-text-coral font-thin text-slate-50">The Luxurious</span>
+            <span className="font-thin text-white">The Luxurious</span>
             <br />
             <span className="text-foreground font-thin">Science of Beauty</span>
           </h1>
