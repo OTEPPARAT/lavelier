@@ -23,11 +23,10 @@ const Home = () => {
               <span className="gradient-text-aqua font-didot">a new frontier of anti-aging</span>
             </h2>
             
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-8">
-              "Lavelier is not just skincare — it is a scientific journey beneath the surface, 
-              where nature and innovation converge to defy aging at its origin. From deep-sea 
-              treasures to the deepest care for your skin's timeless beauty."
-            </p>
+            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-8">"Lavelier is not just skincare — it is a scientific journey beneath the surface, 
+where nature and innovation converge to defy aging at its origin. 
+From deep-sea treasures to the deepest care 
+for your skin's timeless beauty."</p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
