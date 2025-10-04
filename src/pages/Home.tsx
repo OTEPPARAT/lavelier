@@ -71,7 +71,38 @@ for your skin's timeless beauty."</p>
 
       {/* Features Section */}
       <section className="py-20 relative overflow-hidden bg-gradient-to-b from-blue-500/10 via-transparent to-transparent">
-        <div className="container mx-auto px-4">
+        {/* Animated Light Blobs */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div 
+            className="absolute w-96 h-96 rounded-full blur-3xl animate-pulse"
+            style={{
+              background: 'radial-gradient(circle, rgba(255, 248, 220, 0.15), transparent)',
+              top: '10%',
+              left: '10%',
+              animation: 'float 8s ease-in-out infinite'
+            }}
+          />
+          <div 
+            className="absolute w-80 h-80 rounded-full blur-3xl animate-pulse"
+            style={{
+              background: 'radial-gradient(circle, rgba(255, 253, 240, 0.12), transparent)',
+              top: '60%',
+              right: '15%',
+              animation: 'float 10s ease-in-out infinite 2s'
+            }}
+          />
+          <div 
+            className="absolute w-72 h-72 rounded-full blur-3xl animate-pulse"
+            style={{
+              background: 'radial-gradient(circle, rgba(255, 250, 230, 0.1), transparent)',
+              bottom: '20%',
+              left: '50%',
+              animation: 'float 12s ease-in-out infinite 4s'
+            }}
+          />
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform overflow-hidden">
               <div className="mb-6 rounded-xl overflow-hidden">
