@@ -54,7 +54,7 @@ for your skin's timeless beauty."</p>
               <div className="inline-block p-4 rounded-full bg-primary/20 mb-6 group-hover:animate-wave">
                 <Droplets className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="font-serif text-2xl font-semibold mb-4 gradient-text-coral">
+              <h3 className="font-serif text-2xl font-semibold mb-4 gradient-text-coral text-cyan-200">
                 Deep Sea Treasures
               </h3>
               <p className="text-muted-foreground">
