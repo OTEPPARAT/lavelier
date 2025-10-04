@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Sparkles, Droplets, Heart, Crown } from "lucide-react";
-import heroImage from "@/assets/hero-underwater.png";
+import heroImage from "@/assets/hero-underwater-new.png";
 import underwaterImage from "@/assets/hero-coral.png";
 import deepSeaProducts from "@/assets/lavelier-products-final.png";
 import spaGreenProducts from "@/assets/product-spa-green.png";
