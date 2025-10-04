@@ -232,7 +232,7 @@ const Spa = () => {
       </div>
       
       {/* Fixed Red Coral - Outside container for true fixed positioning */}
-      <div className="fixed bottom-0 right-0 w-64 h-64 pointer-events-none z-50" style={{ transform: 'translate(30%, 30%)' }}>
+      <div className="fixed bottom-0 right-0 w-64 h-64 pointer-events-none z-50" style={{ transform: 'translate(15%, -10%)' }}>
         <img 
           src={coralRed} 
           alt="Red Coral" 
