@@ -12,6 +12,10 @@ import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 import nautilusShell from "@/assets/nautilus-shell-clean.png";
 import coralRed from "@/assets/coral-red.png";
+import spaRoomOceana from "@/assets/spa-room-oceana.png";
+import spaRoomSeagrass from "@/assets/spa-room-seagrass.png";
+import spaRoomHydro from "@/assets/spa-room-hydro.png";
+import spaRoomAllure from "@/assets/spa-room-allure.png";
 
 const spaPackages = [{
   id: 1,
@@ -30,6 +34,29 @@ const spaPackages = [{
   description: "ทรีทเมนต์ฟื้นฟูผิวระดับพรีเมี่ยมด้วยสารสกัดจากปะการัง"
 }];
 const timeSlots = ["10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00"];
+
+const spaRooms = [
+  {
+    id: 1,
+    name: "Oceana",
+    image: spaRoomOceana,
+  },
+  {
+    id: 2,
+    name: "Seagrass",
+    image: spaRoomSeagrass,
+  },
+  {
+    id: 3,
+    name: "Hydro",
+    image: spaRoomHydro,
+  },
+  {
+    id: 4,
+    name: "Allure",
+    image: spaRoomAllure,
+  }
+];
 const Spa = () => {
   const [date, setDate] = useState<Date>();
   const [selectedTime, setSelectedTime] = useState<string>("");
@@ -212,6 +239,35 @@ const Spa = () => {
                 ยืนยันการจอง
               </Button>
             </form>
+          </div>
+        </div>
+
+        {/* Spa Rooms Section */}
+        <div className="mt-24">
+          <h2 className="font-serif text-4xl font-light mb-12 text-center gradient-text-aqua">
+            ห้องสปาของเรา
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {spaRooms.map(room => (
+              <div 
+                key={room.id} 
+                className="glass-card rounded-2xl overflow-hidden transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(255,237,160,0.4),0_0_60px_rgba(255,255,255,0.2)]"
+              >
+                <div className="aspect-[4/3] relative overflow-hidden">
+                  <img 
+                    src={room.image} 
+                    alt={room.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-serif text-xl font-light text-center" style={{ color: '#FFF8DC' }}>
+                    {room.name}
+                  </h3>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
