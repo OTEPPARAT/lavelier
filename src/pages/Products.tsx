@@ -5,68 +5,58 @@ import productNew4 from "@/assets/product-new-4.png";
 import productNew5 from "@/assets/product-new-5.png";
 import productNew6 from "@/assets/product-new-6.png";
 import oceanBubbles from "@/assets/ocean-bubbles.png";
-
-const products = [
-  {
-    id: 1,
-    name: "Lavelier Gold Renewal Cream",
-    image: productNew1,
-    description: "ครีมบำรุงผิวสูตรพรีเมี่ยมที่อุดมไปด้วยสารสกัดจากทองคำและแร่ธาตุจากทะเลลึก",
-    benefits: ["ลดเลือนริ้วรอย", "เพิ่มความยืดหยุ่น", "ผิวกระจ่างใส"],
-    collection: "Luxury Collection"
-  },
-  {
-    id: 2,
-    name: "Aquaterra Hydrating Essence",
-    image: productNew2,
-    description: "เอสเซนส์เข้มข้นจากแร่ธาตุใต้ท้องทะเล เติมเต็มความชุ่มชื้นลึกสู่ผิว",
-    benefits: ["เติมความชุ่มชื้น", "ผิวเนียนนุ่ม", "ฟื้นฟูผิว"],
-    collection: "Aquaterra Collection"
-  },
-  {
-    id: 3,
-    name: "Limited Edition Anti-Aging Serum",
-    image: productNew3,
-    description: "เซรั่มต้านอนุมูลอิสระสูตรพิเศษ จากความลับแห่งมหาสมุทร",
-    benefits: ["ลดริ้วรอยลึก", "กระชับรูขุมขน", "ผิวเปล่งปลั่ง"],
-    collection: "Limited Edition"
-  },
-  {
-    id: 4,
-    name: "Deep Sea Revitalizing Elixir",
-    image: productNew4,
-    description: "น้ำยาฟื้นฟูผิวจากสารสกัดหายาก เพิ่มความเปล่งประกายให้ผิว",
-    benefits: ["เพิ่มความกระจ่างใส", "ต่อต้านริ้วรอย", "ฟื้นฟูผิวหมองคล้ำ"],
-    collection: "Deep Sea Collection"
-  },
-  {
-    id: 5,
-    name: "Ocean Pearl Brightening Cream",
-    image: productNew5,
-    description: "ครีมเพิ่มความกระจ่างใสจากสารสกัดไข่มุก บำรุงผิวให้เปล่งประกาย",
-    benefits: ["ผิวขาวกระจ่างใส", "ลดจุดด่างดำ", "เนียนนุ่มชุ่มชื้น"],
-    collection: "Pearl Collection"
-  },
-  {
-    id: 6,
-    name: "Marine Collagen Intense Serum",
-    image: productNew6,
-    description: "เซรั่มคอลลาเจนจากทะเลลึก ฟื้นฟูความยืดหยุ่นของผิว",
-    benefits: ["เพิ่มความยืดหยุ่น", "ลดริ้วรอยชะลอวัย", "กระชับผิว"],
-    collection: "Marine Collection"
-  },
-];
-
+const products = [{
+  id: 1,
+  name: "Lavelier Gold Renewal Cream",
+  image: productNew1,
+  description: "ครีมบำรุงผิวสูตรพรีเมี่ยมที่อุดมไปด้วยสารสกัดจากทองคำและแร่ธาตุจากทะเลลึก",
+  benefits: ["ลดเลือนริ้วรอย", "เพิ่มความยืดหยุ่น", "ผิวกระจ่างใส"],
+  collection: "Luxury Collection"
+}, {
+  id: 2,
+  name: "Aquaterra Hydrating Essence",
+  image: productNew2,
+  description: "เอสเซนส์เข้มข้นจากแร่ธาตุใต้ท้องทะเล เติมเต็มความชุ่มชื้นลึกสู่ผิว",
+  benefits: ["เติมความชุ่มชื้น", "ผิวเนียนนุ่ม", "ฟื้นฟูผิว"],
+  collection: "Aquaterra Collection"
+}, {
+  id: 3,
+  name: "Limited Edition Anti-Aging Serum",
+  image: productNew3,
+  description: "เซรั่มต้านอนุมูลอิสระสูตรพิเศษ จากความลับแห่งมหาสมุทร",
+  benefits: ["ลดริ้วรอยลึก", "กระชับรูขุมขน", "ผิวเปล่งปลั่ง"],
+  collection: "Limited Edition"
+}, {
+  id: 4,
+  name: "Deep Sea Revitalizing Elixir",
+  image: productNew4,
+  description: "น้ำยาฟื้นฟูผิวจากสารสกัดหายาก เพิ่มความเปล่งประกายให้ผิว",
+  benefits: ["เพิ่มความกระจ่างใส", "ต่อต้านริ้วรอย", "ฟื้นฟูผิวหมองคล้ำ"],
+  collection: "Deep Sea Collection"
+}, {
+  id: 5,
+  name: "Ocean Pearl Brightening Cream",
+  image: productNew5,
+  description: "ครีมเพิ่มความกระจ่างใสจากสารสกัดไข่มุก บำรุงผิวให้เปล่งประกาย",
+  benefits: ["ผิวขาวกระจ่างใส", "ลดจุดด่างดำ", "เนียนนุ่มชุ่มชื้น"],
+  collection: "Pearl Collection"
+}, {
+  id: 6,
+  name: "Marine Collagen Intense Serum",
+  image: productNew6,
+  description: "เซรั่มคอลลาเจนจากทะเลลึก ฟื้นฟูความยืดหยุ่นของผิว",
+  benefits: ["เพิ่มความยืดหยุ่น", "ลดริ้วรอยชะลอวัย", "กระชับผิว"],
+  collection: "Marine Collection"
+}];
 const Products = () => {
-  return (
-    <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-slate-900 via-cyan-950 to-slate-950">
+  return <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-slate-900 via-cyan-950 to-slate-950">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
             <span className="text-brand-pink font-light">ผลิตภัณฑ์</span>
             <br />
-            <span className="text-foreground font-didot">Lavelier</span>
+            <span className="text-foreground font-didot font-normal">Lavelier</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light">
             ค้นพบคอลเลกชันครีมบำรุงผิวพรีเมี่ยม<br />จากส่วนผสมแห่งท้องทะเลลึก
@@ -75,11 +65,7 @@ const Products = () => {
 
         {/* Products Grid */}
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-          {products.map((product) => (
-            <article
-              key={product.id}
-              className="glass-card rounded-3xl overflow-hidden group hover:scale-[1.02] transition-transform duration-500 opacity-70"
-            >
+          {products.map(product => <article key={product.id} className="glass-card rounded-3xl overflow-hidden group hover:scale-[1.02] transition-transform duration-500 opacity-70">
               <div className="relative overflow-hidden bg-gradient-to-br from-background to-muted/30 p-8">
                 <div className="absolute top-4 right-4">
                   <span className="glass-button px-4 py-2 rounded-full text-xs font-medium text-muted-foreground/60">
@@ -87,11 +73,7 @@ const Products = () => {
                   </span>
                 </div>
                 
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-80 object-contain group-hover:scale-110 transition-transform duration-700 animate-float"
-                />
+                <img src={product.image} alt={product.name} className="w-full h-80 object-contain group-hover:scale-110 transition-transform duration-700 animate-float" />
               </div>
 
               <div className="p-8 pt-4">
@@ -108,20 +90,14 @@ const Products = () => {
                     คุณสมบัติพิเศษ
                   </h3>
                   <ul className="space-y-2">
-                    {product.benefits.map((benefit, index) => (
-                      <li
-                        key={index}
-                        className="text-sm text-muted-foreground flex items-center gap-2 font-light"
-                      >
+                    {product.benefits.map((benefit, index) => <li key={index} className="text-sm text-muted-foreground flex items-center gap-2 font-light">
                         <span className="w-1.5 h-1.5 rounded-full bg-amber-100/80" />
                         {benefit}
-                      </li>
-                    ))}
+                      </li>)}
                   </ul>
                 </div>
               </div>
-            </article>
-          ))}
+            </article>)}
         </div>
 
         {/* CTA Section */}
@@ -133,10 +109,7 @@ const Products = () => {
             สัมผัสประสบการณ์ผลิตภัณฑ์ Lavelier ได้ที่เคาน์เตอร์ทุกสาขา
             หรือเยี่ยมชม Lavelier Aquaterra Lounge เซ็นทรัลเวิร์ล
           </p>
-          <a
-            href="tel:+66-XXX-XXX-XXXX"
-            className="glass-button px-8 py-4 rounded-full inline-block text-foreground font-light hover:scale-105 transition-transform"
-          >
+          <a href="tel:+66-XXX-XXX-XXXX" className="glass-button px-8 py-4 rounded-full inline-block text-foreground font-light hover:scale-105 transition-transform">
             ติดต่อสอบถาม
           </a>
         </div>
@@ -144,39 +117,27 @@ const Products = () => {
         {/* Ocean Bubbles Background */}
         <div className="fixed bottom-0 left-0 right-0 top-0 pointer-events-none z-50">
           <div className="absolute bottom-0 right-0 h-96 w-auto">
-            <img 
-              src={oceanBubbles} 
-              alt="" 
-              className="h-full w-auto object-contain"
-            />
+            <img src={oceanBubbles} alt="" className="h-full w-auto object-contain" />
           </div>
           
           {/* Floating Bubbles */}
-          {[...Array(8)].map((_, i) => (
-            <div
-              key={i}
-              className="absolute bottom-0 rounded-full animate-bubble"
-              style={{
-                left: `${45 + i * 3}%`,
-                width: `${10 + i * 4}px`,
-                height: `${10 + i * 4}px`,
-                background: `radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.35) 15%, rgba(120, 220, 255, 0.12) 40%, rgba(120, 220, 255, 0.04))`,
-                boxShadow: `
+          {[...Array(8)].map((_, i) => <div key={i} className="absolute bottom-0 rounded-full animate-bubble" style={{
+          left: `${45 + i * 3}%`,
+          width: `${10 + i * 4}px`,
+          height: `${10 + i * 4}px`,
+          background: `radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.35) 15%, rgba(120, 220, 255, 0.12) 40%, rgba(120, 220, 255, 0.04))`,
+          boxShadow: `
                   inset -5px -5px 10px rgba(255, 255, 255, 0.18),
                   inset 5px 5px 10px rgba(0, 150, 200, 0.08),
                   0 5px 15px rgba(100, 200, 255, 0.12),
                   inset 2px 2px 4px rgba(255, 255, 255, 0.5)
                 `,
-                border: '1px solid rgba(255, 255, 255, 0.15)',
-                animationDelay: `${i * 0.8}s`,
-                animationDuration: `${4 + i * 0.5}s`,
-              }}
-            />
-          ))}
+          border: '1px solid rgba(255, 255, 255, 0.15)',
+          animationDelay: `${i * 0.8}s`,
+          animationDuration: `${4 + i * 0.5}s`
+        }} />)}
         </div>
       </div>
-    </main>
-  );
+    </main>;
 };
-
 export default Products;
