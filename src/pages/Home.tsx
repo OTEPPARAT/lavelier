@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
-import { Sparkles, Droplets, Heart } from "lucide-react";
+import { Sparkles, Droplets, Heart, Crown } from "lucide-react";
 import heroImage from "@/assets/hero-underwater.png";
 import underwaterImage from "@/assets/hero-coral.png";
 import deepSeaProducts from "@/assets/lavelier-products-final.png";
+import spaGreenProducts from "@/assets/product-spa-green.png";
+import serumPinkProducts from "@/assets/product-serum-pink.png";
+import limitedGoldProducts from "@/assets/product-limited-gold.png";
 const Home = () => {
   return <main className="min-h-screen">
       {/* Hero Section */}
@@ -46,7 +49,7 @@ for your skin's timeless beauty."</p>
       {/* Features Section */}
       <section className="py-20 relative overflow-hidden bg-gradient-to-b from-blue-500/10 via-transparent to-transparent">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform overflow-hidden">
               <div className="mb-6 rounded-xl overflow-hidden">
                 <img src={deepSeaProducts} alt="Deep Sea Treasures" className="w-full h-auto" />
@@ -62,27 +65,48 @@ for your skin's timeless beauty."</p>
               </p>
             </div>
 
-            <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform">
+            <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform overflow-hidden">
+              <div className="mb-6 rounded-xl overflow-hidden">
+                <img src={spaGreenProducts} alt="Spa Collection" className="w-full h-auto" />
+              </div>
               <div className="inline-block p-4 rounded-full bg-secondary/20 mb-6 group-hover:animate-wave">
                 <Sparkles className="w-8 h-8 text-secondary" />
               </div>
               <h3 className="font-serif text-2xl font-semibold mb-4 gradient-text-aqua">
-                Scientific Innovation
+                Spa Collection
               </h3>
               <p className="text-muted-foreground">
-                นวัตกรรมทางวิทยาศาสตร์ที่สุดเพื่อผิวพรรณที่เปล่งประกายและเยาว์วัย
+                คอลเลคชั่นสปา ที่ผสานนวัตกรรมและธรรมชาติ เพื่อประสบการณ์การบำรุงผิวที่สมบูรณ์แบบ
               </p>
             </div>
 
-            <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform">
+            <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform overflow-hidden">
+              <div className="mb-6 rounded-xl overflow-hidden">
+                <img src={serumPinkProducts} alt="Serum Collection" className="w-full h-auto" />
+              </div>
               <div className="inline-block p-4 rounded-full bg-accent/20 mb-6 group-hover:animate-wave">
                 <Heart className="w-8 h-8 text-accent" />
               </div>
               <h3 className="font-serif text-2xl font-semibold mb-4 text-accent">
-                Timeless Beauty
+                Serum Collection
               </h3>
               <p className="text-muted-foreground">
-                ความงามที่ไร้กาลเวลา ด้วยการบำรุงผิวที่ลึกล้ำและยั่งยืน
+                เซรั่มบำรุงผิวเข้มข้น ที่มอบความชุ่มชื้นและความเปล่งประกายให้ผิวคุณ
+              </p>
+            </div>
+
+            <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform overflow-hidden">
+              <div className="mb-6 rounded-xl overflow-hidden">
+                <img src={limitedGoldProducts} alt="Limited Edition" className="w-full h-auto" />
+              </div>
+              <div className="inline-block p-4 rounded-full bg-amber-500/20 mb-6 group-hover:animate-wave">
+                <Crown className="w-8 h-8 text-amber-500" />
+              </div>
+              <h3 className="font-serif text-2xl font-semibold mb-4 text-amber-500">
+                Limited Edition
+              </h3>
+              <p className="text-muted-foreground">
+                คอลเลคชั่นพิเศษสุดหรู ที่ผสานทองคำและสารสกัดล้ำค่า เพื่อผิวที่สมบูรณ์แบบที่สุด
               </p>
             </div>
           </div>
