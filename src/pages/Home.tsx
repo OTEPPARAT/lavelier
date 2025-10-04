@@ -109,9 +109,9 @@ for your skin's timeless beauty."</p>
                 <img src={deepSeaProducts} alt="Deep Sea Treasures" className="w-full h-auto" />
               </div>
               <div className="inline-block p-4 rounded-full bg-cyan-500/20 mb-6 group-hover:animate-wave">
-                <Droplets className="w-8 h-8 text-cyan-400/80" />
+                <Droplets className="w-8 h-8 text-cyan-400" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-cyan-300/80">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-cyan-300">
                 Deep Sea Treasures
               </h3>
               <p className="text-muted-foreground font-light">
@@ -139,9 +139,9 @@ for your skin's timeless beauty."</p>
                 <img src={serumPinkProducts} alt="Serum Collection" className="w-full h-auto" />
               </div>
               <div className="inline-block p-4 rounded-full bg-rose-400/20 mb-6 group-hover:animate-wave">
-                <Heart className="w-8 h-8 text-rose-400/80" />
+                <Heart className="w-8 h-8 text-rose-400" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-rose-300/80">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-rose-300">
                 Serum Collection
               </h3>
               <p className="text-muted-foreground font-light">
@@ -154,9 +154,9 @@ for your skin's timeless beauty."</p>
                 <img src={limitedGoldProducts} alt="Limited Edition" className="w-full h-auto" />
               </div>
               <div className="inline-block p-4 rounded-full bg-yellow-600/20 mb-6 group-hover:animate-wave">
-                <Crown className="w-8 h-8 text-yellow-600/80" />
+                <Crown className="w-8 h-8 text-yellow-600" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-yellow-500/80">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-yellow-500">
                 Limited Edition
               </h3>
               <p className="text-muted-foreground font-light">
