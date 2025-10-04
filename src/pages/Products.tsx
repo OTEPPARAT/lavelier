@@ -4,6 +4,7 @@ import productNew3 from "@/assets/product-new-3.png";
 import productNew4 from "@/assets/product-new-4.png";
 import productNew5 from "@/assets/product-new-5.png";
 import productNew6 from "@/assets/product-new-6.png";
+import oceanBubbles from "@/assets/ocean-bubbles.png";
 
 const products = [
   {
@@ -138,6 +139,28 @@ const Products = () => {
           >
             ติดต่อสอบถาม
           </a>
+        </div>
+
+        {/* Ocean Bubbles Background */}
+        <div className="fixed bottom-0 left-0 right-0 h-96 pointer-events-none overflow-hidden">
+          <img 
+            src={oceanBubbles} 
+            alt="" 
+            className="absolute bottom-0 right-0 h-full w-auto object-contain"
+          />
+          
+          {/* Floating Bubbles */}
+          {[...Array(8)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute bottom-0 w-4 h-4 rounded-full bg-cyan-300/30 animate-bubble"
+              style={{
+                left: `${45 + i * 3}%`,
+                animationDelay: `${i * 0.8}s`,
+                animationDuration: `${4 + i * 0.5}s`,
+              }}
+            />
+          ))}
         </div>
       </div>
     </main>

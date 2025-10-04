@@ -110,6 +110,23 @@ export default {
             transform: "scale(1.04) translateY(8px)",
           },
         },
+        "bubble": {
+          "0%": {
+            transform: "translateY(0) scale(0)",
+            opacity: "0",
+          },
+          "10%": {
+            opacity: "0.5",
+            transform: "translateY(-10vh) scale(1)",
+          },
+          "90%": {
+            opacity: "0.3",
+          },
+          "100%": {
+            transform: "translateY(-100vh) translateX(10px) scale(0.5)",
+            opacity: "0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -118,6 +135,7 @@ export default {
         "float": "float 6s ease-in-out infinite",
         "shimmer": "shimmer 3s linear infinite",
         "underwater": "underwater 8s ease-in-out infinite",
+        "bubble": "bubble 5s ease-in-out infinite",
       },
     },
   },
