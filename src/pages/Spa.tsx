@@ -64,12 +64,15 @@ const Spa = () => {
       notes: ""
     });
   };
-  return <main className="relative min-h-screen pt-32 pb-20 bg-gradient-to-b from-cyan-950/70 via-blue-950/80 to-slate-950/90">
+  return <main className="relative min-h-screen pt-32 pb-20 bg-gradient-to-b from-cyan-950/70 via-blue-950/80 to-slate-950/90" style={{ overflow: 'visible' }}>
       {/* Background Shell Image */}
-      <div className="absolute inset-0 pointer-events-none overflow-visible">
+      <div className="absolute inset-0 pointer-events-none" style={{ overflow: 'visible' }}>
         <div 
-          className="absolute top-1/2 -right-96 w-[480%] h-[480%] -translate-y-1/2 opacity-80"
+          className="absolute top-1/2 -right-96 opacity-80"
           style={{
+            width: '480%',
+            height: '480%',
+            transform: 'translateY(-50%)',
             backgroundImage: `url(${nautilusShell})`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
