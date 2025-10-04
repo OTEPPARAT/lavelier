@@ -11,7 +11,7 @@ import { th } from "date-fns/locale";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 import nautilusShell from "@/assets/nautilus-shell-clean.png";
-import coralBlue from "@/assets/coral-blue.png";
+import coralBlue from "@/assets/coral-blue-new.png";
 import spaRoomOceana from "@/assets/spa-room-oceana.png";
 import spaRoomSeagrass from "@/assets/spa-room-seagrass.png";
 import spaRoomHydro from "@/assets/spa-room-hydro.png";
