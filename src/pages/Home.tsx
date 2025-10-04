@@ -15,7 +15,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-cover animate-underwater" style={{
         backgroundImage: `url(${heroImage})`,
         backgroundPosition: 'center bottom',
-        filter: 'brightness(1.05) contrast(1.05)'
+        filter: 'brightness(1.25) contrast(1.05)'
       }} />
         <div className="absolute inset-0 bg-black/70" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/50" />
