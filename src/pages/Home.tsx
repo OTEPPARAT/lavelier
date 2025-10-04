@@ -235,7 +235,7 @@ for your skin's timeless beauty."</p>
       </section>
 
       {/* Fixed Red Coral - Bottom Right */}
-      <div className="fixed bottom-0 right-0 w-64 h-64 pointer-events-none z-50" style={{ transform: 'translate(15%, 10%)' }}>
+      <div className="fixed bottom-0 right-0 w-64 h-64 pointer-events-none" style={{ transform: 'translate(15%, 10%)', zIndex: 9999 }}>
         <img 
           src={coralRed} 
           alt="Red Coral" 
