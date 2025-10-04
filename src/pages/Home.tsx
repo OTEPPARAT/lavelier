@@ -195,18 +195,17 @@ for your skin's timeless beauty."</p>
 
       {/* Underwater Section */}
       <section className="relative py-0 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="relative h-[700px] md:h-[800px]">
-            <img 
-              src={underwaterImage} 
-              alt="Deep sea beauty" 
-              className="rounded-3xl shadow-2xl w-full h-full object-cover"
-              style={{ filter: 'brightness(1.3) contrast(1.15)' }}
-            />
-            
-            {/* Text Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center md:justify-start p-8 md:p-16">
-              <div className="max-w-2xl">
+        <div className="relative h-[700px] md:h-[800px] w-full">
+          <img 
+            src={underwaterImage} 
+            alt="Deep sea beauty" 
+            className="w-full h-full object-cover"
+            style={{ filter: 'brightness(1.3) contrast(1.15)' }}
+          />
+          
+          {/* Text Overlay */}
+          <div className="absolute inset-0 flex items-center justify-center md:justify-start p-8 md:p-16">
+            <div className="max-w-2xl container mx-auto px-4">
                 <h2 className="font-serif text-4xl sm:text-5xl font-bold mb-6 text-brand-pink">
                   <span className="font-didot">deep dive</span>
                   <br />
@@ -231,7 +230,6 @@ for your skin's timeless beauty."</p>
               </div>
             </div>
           </div>
-        </div>
       </section>
     </main>;
 };
