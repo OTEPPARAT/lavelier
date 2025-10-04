@@ -64,7 +64,7 @@ const Products = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text-coral font-light">ผลิตภัณฑ์</span>
+            <span className="text-brand-pink font-light">ผลิตภัณฑ์</span>
             <br />
             <span className="text-foreground font-didot">Lavelier</span>
           </h1>
@@ -160,13 +160,13 @@ const Products = () => {
                 left: `${45 + i * 3}%`,
                 width: `${10 + i * 4}px`,
                 height: `${10 + i * 4}px`,
-                background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(120, 220, 255, 0.3) 40%, rgba(120, 220, 255, 0.1))`,
+                background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.56), rgba(120, 220, 255, 0.21) 40%, rgba(120, 220, 255, 0.07))`,
                 boxShadow: `
-                  inset -5px -5px 10px rgba(255, 255, 255, 0.4),
-                  inset 5px 5px 10px rgba(0, 150, 200, 0.2),
-                  0 5px 15px rgba(100, 200, 255, 0.3)
+                  inset -5px -5px 10px rgba(255, 255, 255, 0.28),
+                  inset 5px 5px 10px rgba(0, 150, 200, 0.14),
+                  0 5px 15px rgba(100, 200, 255, 0.21)
                 `,
-                border: '1px solid rgba(255, 255, 255, 0.3)',
+                border: '1px solid rgba(255, 255, 255, 0.21)',
                 animationDelay: `${i * 0.8}s`,
                 animationDuration: `${4 + i * 0.5}s`,
               }}
