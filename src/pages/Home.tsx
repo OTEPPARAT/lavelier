@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Sparkles, Droplets, Heart } from "lucide-react";
-import heroImage from "@/assets/hero-brand.png";
+import heroImage from "@/assets/hero-coral.png";
 import underwaterImage from "@/assets/underwater-beauty.png";
 const Home = () => {
   return <main className="min-h-screen">
