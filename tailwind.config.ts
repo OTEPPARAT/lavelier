@@ -96,6 +96,20 @@ export default {
           "0%": { backgroundPosition: "-1000px 0" },
           "100%": { backgroundPosition: "1000px 0" },
         },
+        "underwater": {
+          "0%, 100%": { 
+            transform: "scale(1.05) translateY(0px)",
+          },
+          "25%": { 
+            transform: "scale(1.06) translateY(-8px)",
+          },
+          "50%": { 
+            transform: "scale(1.05) translateY(0px)",
+          },
+          "75%": { 
+            transform: "scale(1.04) translateY(8px)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -103,6 +117,7 @@ export default {
         "wave": "wave 3s ease-in-out infinite",
         "float": "float 6s ease-in-out infinite",
         "shimmer": "shimmer 3s linear infinite",
+        "underwater": "underwater 8s ease-in-out infinite",
       },
     },
   },

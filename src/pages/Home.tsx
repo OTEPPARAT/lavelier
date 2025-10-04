@@ -6,7 +6,7 @@ const Home = () => {
   return <main className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-cover" style={{
+        <div className="absolute inset-0 bg-cover animate-underwater" style={{
         backgroundImage: `url(${heroImage})`,
         backgroundPosition: 'center bottom'
       }} />
