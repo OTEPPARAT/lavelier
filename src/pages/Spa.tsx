@@ -68,15 +68,16 @@ const Spa = () => {
       {/* Background Shell Image */}
       <div className="absolute inset-0 pointer-events-none" style={{ overflow: 'visible' }}>
         <div 
-          className="absolute top-1/2 -right-96 opacity-80"
+          className="absolute opacity-60"
           style={{
+            top: '280px',
+            right: '-384px',
             width: '480%',
             height: '480%',
-            transform: 'translateY(-50%)',
             backgroundImage: `url(${nautilusShell})`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'right center',
+            backgroundPosition: 'right top',
           }}
         />
       </div>
