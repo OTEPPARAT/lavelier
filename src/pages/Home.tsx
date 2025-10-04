@@ -20,7 +20,7 @@ const Home = () => {
           
           <div className="max-w-3xl mx-auto mb-12">
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold mb-8">
-              <span className="gradient-text-aqua">a new frontier of anti-aging</span>
+              <span className="gradient-text-aqua font-didot">a new frontier of anti-aging</span>
             </h2>
             
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-8">
