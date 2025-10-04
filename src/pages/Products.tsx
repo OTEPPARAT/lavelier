@@ -46,11 +46,11 @@ const Products = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text-coral">ผลิตภัณฑ์</span>
+            <span className="gradient-text-coral font-light">ผลิตภัณฑ์</span>
             <br />
-            <span className="text-foreground">Lavelier</span>
+            <span className="text-foreground font-didot">Lavelier</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light">
             ค้นพบคอลเลกชันครีมบำรุงผิวพรีเมี่ยม จากส่วนผสมแห่งท้องทะเลลึก
           </p>
         </div>
@@ -77,16 +77,16 @@ const Products = () => {
               </div>
 
               <div className="p-8">
-                <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-4 gradient-text-aqua">
+                <h2 className="font-didot text-2xl sm:text-3xl font-semibold mb-4 gradient-text-aqua">
                   {product.name}
                 </h2>
                 
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-muted-foreground mb-6 leading-relaxed font-light">
                   {product.description}
                 </p>
 
                 <div className="space-y-3">
-                  <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                  <h3 className="text-sm font-semibold text-foreground flex items-center gap-2 font-light">
                     <Sparkles className="w-4 h-4 text-primary" />
                     ประโยชน์
                   </h3>
@@ -94,7 +94,7 @@ const Products = () => {
                     {product.benefits.map((benefit, index) => (
                       <li
                         key={index}
-                        className="text-sm text-muted-foreground flex items-center gap-2"
+                        className="text-sm text-muted-foreground flex items-center gap-2 font-light"
                       >
                         <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
                         {benefit}
@@ -110,15 +110,15 @@ const Products = () => {
         {/* CTA Section */}
         <div className="mt-20 text-center glass-card rounded-3xl p-12">
           <h2 className="font-serif text-3xl sm:text-4xl font-bold mb-4">
-            <span className="gradient-text-coral">พบกับผลิตภัณฑ์ Lavelier</span>
+            <span className="gradient-text-coral font-light">พบกับผลิตภัณฑ์ </span><span className="gradient-text-coral font-didot">Lavelier</span>
           </h2>
-          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
             สัมผัสประสบการณ์ผลิตภัณฑ์ Lavelier ได้ที่เคาน์เตอร์ทุกสาขา
             หรือเยี่ยมชม Lavelier Aquaterra Lounge เซ็นทรัลเวิร์ล
           </p>
           <a
             href="tel:+66-XXX-XXX-XXXX"
-            className="glass-button px-8 py-4 rounded-full inline-block text-foreground font-medium hover:scale-105 transition-transform"
+            className="glass-button px-8 py-4 rounded-full inline-block text-foreground font-light hover:scale-105 transition-transform"
           >
             ติดต่อสอบถาม
           </a>

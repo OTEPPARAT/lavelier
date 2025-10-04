@@ -73,11 +73,11 @@ const Spa = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text-coral">Lavelier</span>
+            <span className="gradient-text-coral font-didot">Lavelier</span>
             <br />
-            <span className="gradient-text-aqua">Aquaterra Lounge</span>
+            <span className="gradient-text-aqua font-didot">Aquaterra Lounge</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light">
             สัมผัสประสบการณ์สปาระดับโลก ด้วยนวัตกรรมจากท้องทะเลลึก
           </p>
         </div>
@@ -85,7 +85,7 @@ const Spa = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Spa Packages */}
           <div>
-            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-aqua">
+            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-aqua font-light">
               แพ็คเกจสปา
             </h2>
             
@@ -100,15 +100,15 @@ const Spa = () => {
                   )}
                 >
                   <div className="flex items-start justify-between mb-3">
-                    <h3 className="font-serif text-xl font-semibold text-foreground">
+                    <h3 className="font-didot text-xl font-semibold text-foreground">
                       {pkg.name}
                     </h3>
-                    <span className="glass-button px-3 py-1 rounded-full text-xs text-secondary flex items-center gap-1">
+                    <span className="glass-button px-3 py-1 rounded-full text-xs text-secondary flex items-center gap-1 font-light">
                       <Clock className="w-3 h-3" />
                       {pkg.duration}
                     </span>
                   </div>
-                  <p className="text-sm text-muted-foreground">{pkg.description}</p>
+                  <p className="text-sm text-muted-foreground font-light">{pkg.description}</p>
                 </button>
               ))}
             </div>
@@ -116,7 +116,7 @@ const Spa = () => {
 
           {/* Booking Form */}
           <div className="glass-card rounded-3xl p-8">
-            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-coral">
+            <h2 className="font-serif text-3xl font-semibold mb-8 gradient-text-coral font-light">
               จองคิว
             </h2>
 
@@ -250,14 +250,14 @@ const Spa = () => {
         {/* Location Info */}
         <div className="mt-20 glass-card rounded-3xl p-12 text-center">
           <h2 className="font-serif text-3xl font-bold mb-4">
-            <span className="gradient-text-aqua">ที่ตั้ง</span>
+            <span className="gradient-text-aqua font-light">ที่ตั้ง</span>
           </h2>
-          <p className="text-xl text-foreground mb-2">Lavelier Aquaterra Lounge</p>
-          <p className="text-muted-foreground mb-6">
+          <p className="text-xl text-foreground mb-2 font-didot">Lavelier Aquaterra Lounge</p>
+          <p className="text-muted-foreground mb-6 font-light">
             เซ็นทรัลเวิร์ล ชั้น 7<br />
             เปิดทุกวัน 10:00 - 20:00 น.
           </p>
-          <p className="text-secondary font-medium">
+          <p className="text-secondary font-light">
             โทร: 02-XXX-XXXX
           </p>
         </div>

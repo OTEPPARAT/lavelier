@@ -29,9 +29,8 @@ const Home = () => {
               <span className="gradient-text-aqua font-didot">a new frontier of anti-aging</span>
             </h2>
             
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-8">"Lavelier is not just skincare — it is a scientific journey beneath the surface, 
-where nature and innovation converge to defy aging at its origin. 
-From deep-sea treasures to the deepest care 
+            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-8 font-light">"Lavelier is not just skincare — it is a scientific journey beneath the surface, 
+...
 for your skin's timeless beauty."</p>
           </div>
 
@@ -60,7 +59,7 @@ for your skin's timeless beauty."</p>
               <h3 className="font-didot text-2xl font-semibold mb-4 text-cyan-300/80">
                 Deep Sea Treasures
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground font-light">
                 สารสกัดจากใต้ท้องทะเลลึก ที่อุดมไปด้วยแร่ธาตุและสารอาหารที่มีประสิทธิภาพ
               </p>
             </div>
@@ -75,7 +74,7 @@ for your skin's timeless beauty."</p>
               <h3 className="font-didot text-2xl font-semibold mb-4 text-teal-400/80">
                 Spa Collection
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground font-light">
                 คอลเลคชั่นสปา ที่ผสานนวัตกรรมและธรรมชาติ เพื่อประสบการณ์การบำรุงผิวที่สมบูรณ์แบบ
               </p>
             </div>
@@ -90,7 +89,7 @@ for your skin's timeless beauty."</p>
               <h3 className="font-didot text-2xl font-semibold mb-4 text-rose-300/80">
                 Serum Collection
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground font-light">
                 เซรั่มบำรุงผิวเข้มข้น ที่มอบความชุ่มชื้นและความเปล่งประกายให้ผิวคุณ
               </p>
             </div>
@@ -105,7 +104,7 @@ for your skin's timeless beauty."</p>
               <h3 className="font-didot text-2xl font-semibold mb-4 text-yellow-500/80">
                 Limited Edition
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground font-light">
                 คอลเลคชั่นพิเศษสุดหรู ที่ผสานทองคำและสารสกัดล้ำค่า เพื่อผิวที่สมบูรณ์แบบที่สุด
               </p>
             </div>
@@ -123,24 +122,24 @@ for your skin's timeless beauty."</p>
             
             <div>
               <h2 className="font-serif text-4xl sm:text-5xl font-bold mb-6">
-                <span className="gradient-text-coral">deep dive</span>
+                <span className="gradient-text-coral font-didot">deep dive</span>
                 <br />
-                <span className="gradient-text-aqua">into...</span>
+                <span className="gradient-text-aqua font-didot">into...</span>
                 <br />
-                <span className="gradient-text-aqua">secrets of youth</span>
+                <span className="gradient-text-aqua font-didot">secrets of youth</span>
               </h2>
               
-              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed font-light">
                 ลาวีเลียร์นำสารสกัดจากปะการังลำค่าและสร้างสรรค์เป็นสูตรลับแห่ง
                 ความงามด้วยวิทยาการล้ำหน้าที่สุดเพื่อผิวที่ออนเยาว์และเปล่งประกาย
                 เหนือกาลเวลา... ค้นพบส่มผสมแห่งผิวที่แตกต่างในครูที่แรกที่เคาน์เตอร์
               </p>
 
-              <p className="text-base text-secondary font-medium mb-4">
+              <p className="text-base text-secondary font-light mb-4">
                 Lavelier ทุกสาขา พร้อมประสบการณ์ด้าติ่งสุดการพิมพ์ฟิวชั่นลึกในสปาส่วนตัวที่
               </p>
               
-              <p className="font-serif text-2xl gradient-text-aqua">
+              <p className="font-didot text-2xl gradient-text-aqua">
                 Lavelier Aquaterra Lounge เซ็นทรัลเวิร์ล
               </p>
             </div>
