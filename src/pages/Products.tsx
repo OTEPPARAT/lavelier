@@ -142,12 +142,14 @@ const Products = () => {
         </div>
 
         {/* Ocean Bubbles Background */}
-        <div className="fixed bottom-0 left-0 right-0 h-96 pointer-events-none overflow-hidden z-50">
-          <img 
-            src={oceanBubbles} 
-            alt="" 
-            className="absolute bottom-0 right-0 h-full w-auto object-contain"
-          />
+        <div className="fixed bottom-0 left-0 right-0 top-0 pointer-events-none z-50">
+          <div className="absolute bottom-0 right-0 h-96 w-auto">
+            <img 
+              src={oceanBubbles} 
+              alt="" 
+              className="h-full w-auto object-contain"
+            />
+          </div>
           
           {/* Floating Bubbles */}
           {[...Array(8)].map((_, i) => (
