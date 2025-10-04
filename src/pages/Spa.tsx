@@ -90,7 +90,7 @@ const Spa = () => {
             <br />
             <span className="gradient-text-aqua font-light">Aquaterra Lounge</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light">
+          <p className="text-lg max-w-2xl mx-auto font-light" style={{ color: '#FFF8DC' }}>
             สัมผัสประสบการณ์สปาระดับโลก ด้วยนวัตกรรมจากท้องทะเลลึก
           </p>
         </div>
@@ -105,7 +105,7 @@ const Spa = () => {
             <div className="space-y-4">
               {spaPackages.map(pkg => <button key={pkg.id} onClick={() => setSelectedPackage(pkg.name)} className={cn("w-full glass-card rounded-2xl p-6 text-left transition-all hover:scale-[1.02]", selectedPackage === pkg.name && "border-secondary border-2 bg-secondary/10")}>
                   <div className="flex items-start justify-between mb-3">
-                    <h3 className="font-didot text-xl font-semibold text-foreground">
+                    <h3 className="font-didot text-xl font-semibold" style={{ color: '#FFF8DC' }}>
                       {pkg.name}
                     </h3>
                     <span className="glass-button px-3 py-1 rounded-full text-xs text-secondary flex items-center gap-1">
