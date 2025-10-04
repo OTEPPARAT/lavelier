@@ -138,10 +138,10 @@ for your skin's timeless beauty."</p>
               <div className="mb-6 rounded-xl overflow-hidden">
                 <img src={serumPinkProducts} alt="Serum Collection" className="w-full h-auto" />
               </div>
-              <div className="inline-block p-4 rounded-full bg-rose-400/20 mb-6 group-hover:animate-wave">
-                <Heart className="w-8 h-8 text-rose-400" />
+              <div className="inline-block p-4 rounded-full mb-6 group-hover:animate-wave" style={{ backgroundColor: 'rgba(154, 120, 115, 0.25)' }}>
+                <Heart className="w-8 h-8" style={{ color: '#9A7873' }} />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-rose-300">
+              <h3 className="font-didot text-2xl font-semibold mb-4" style={{ color: '#9A7873' }}>
                 Serum Collection
               </h3>
               <p className="text-muted-foreground font-light">
