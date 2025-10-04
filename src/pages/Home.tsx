@@ -178,6 +178,27 @@ for your skin's timeless beauty."</p>
               style={{ filter: 'brightness(1.3) contrast(1.15)' }}
             />
             
+            {/* Water Light Effect */}
+            <div className="absolute top-0 left-1/4 right-1/4 h-1/3 pointer-events-none overflow-hidden rounded-t-3xl">
+              {[...Array(3)].map((_, i) => (
+                <div
+                  key={i}
+                  className="absolute inset-0 animate-shimmer opacity-30"
+                  style={{
+                    background: `linear-gradient(90deg, 
+                      transparent 0%, 
+                      rgba(255, 255, 255, 0.3) 25%, 
+                      rgba(255, 255, 255, 0.5) 50%, 
+                      rgba(255, 255, 255, 0.3) 75%, 
+                      transparent 100%)`,
+                    backgroundSize: '200% 100%',
+                    animationDelay: `${i * 1.2}s`,
+                    animationDuration: '4s',
+                  }}
+                />
+              ))}
+            </div>
+            
             {/* Text Overlay */}
             <div className="absolute inset-0 flex items-center justify-center md:justify-start p-8 md:p-16">
               <div className="max-w-2xl">
