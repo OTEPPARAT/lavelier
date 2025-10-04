@@ -108,10 +108,10 @@ for your skin's timeless beauty."</p>
               <div className="mb-6 rounded-xl overflow-hidden">
                 <img src={deepSeaProducts} alt="Deep Sea Treasures" className="w-full h-auto" />
               </div>
-              <div className="inline-block p-4 rounded-full bg-cyan-500/20 mb-6 group-hover:animate-wave">
-                <Droplets className="w-8 h-8 text-cyan-400" />
+              <div className="inline-block p-4 rounded-full mb-6 group-hover:animate-wave" style={{ backgroundColor: 'rgba(169, 195, 209, 0.25)' }}>
+                <Droplets className="w-8 h-8" style={{ color: '#A9C3D1' }} />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-cyan-300">
+              <h3 className="font-didot text-2xl font-semibold mb-4" style={{ color: '#A9C3D1' }}>
                 Deep Sea Treasures
               </h3>
               <p className="text-muted-foreground font-light">
