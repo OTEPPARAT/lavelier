@@ -39,7 +39,7 @@ const Navigation = () => {
               >
                 {link.label}
                 <span
-                  className={`absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-secondary to-primary transition-transform duration-300 ${
+                  className={`absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-secondary to-primary transition-transform duration-300 opacity-50 ${
                     isActive(link.path)
                       ? "scale-x-100"
                       : "scale-x-0 group-hover:scale-x-100"
