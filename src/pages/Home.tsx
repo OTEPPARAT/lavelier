@@ -123,10 +123,10 @@ for your skin's timeless beauty."</p>
               <div className="mb-6 rounded-xl overflow-hidden">
                 <img src={spaGreenProducts} alt="Spa Collection" className="w-full h-auto" />
               </div>
-              <div className="inline-block p-4 rounded-full bg-emerald-900/30 mb-6 group-hover:animate-wave">
-                <Sparkles className="w-8 h-8 text-emerald-800/90" />
+              <div className="inline-block p-4 rounded-full bg-slate-700/25 mb-6 group-hover:animate-wave">
+                <Sparkles className="w-8 h-8 text-slate-500/85" />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-emerald-800/80">
+              <h3 className="font-didot text-2xl font-semibold mb-4 text-slate-500/80">
                 Spa Collection
               </h3>
               <p className="text-muted-foreground font-light">
