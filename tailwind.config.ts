@@ -65,6 +65,7 @@ export default {
       },
       fontFamily: {
         'serif': ['Playfair Display', 'Georgia', 'serif'],
+        'didot': ['Bodoni Moda', 'Didot', 'serif'],
       },
       keyframes: {
         "accordion-down": {
