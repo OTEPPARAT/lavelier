@@ -27,13 +27,13 @@ const Home = () => {
                 left: `${10 + i * 7}%`,
                 width: `${6 + i * 2}px`,
                 height: `${6 + i * 2}px`,
-                background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.6), rgba(120, 220, 255, 0.2) 40%, rgba(120, 220, 255, 0.05))`,
+                background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.4), rgba(120, 220, 255, 0.14) 40%, rgba(120, 220, 255, 0.03))`,
                 boxShadow: `
-                  inset -3px -3px 6px rgba(255, 255, 255, 0.3),
-                  inset 3px 3px 6px rgba(0, 150, 200, 0.15),
-                  0 3px 10px rgba(100, 200, 255, 0.2)
+                  inset -3px -3px 6px rgba(255, 255, 255, 0.2),
+                  inset 3px 3px 6px rgba(0, 150, 200, 0.1),
+                  0 3px 10px rgba(100, 200, 255, 0.14)
                 `,
-                border: '1px solid rgba(255, 255, 255, 0.2)',
+                border: '1px solid rgba(255, 255, 255, 0.14)',
                 animationDelay: `${i * 1.2}s`,
                 animationDuration: `${8 + i * 0.8}s`,
               }}
