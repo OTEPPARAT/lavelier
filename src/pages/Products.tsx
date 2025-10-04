@@ -153,9 +153,18 @@ const Products = () => {
           {[...Array(8)].map((_, i) => (
             <div
               key={i}
-              className="absolute bottom-0 w-4 h-4 rounded-full bg-cyan-300/30 animate-bubble"
+              className="absolute bottom-0 rounded-full animate-bubble"
               style={{
                 left: `${45 + i * 3}%`,
+                width: `${20 + i * 8}px`,
+                height: `${20 + i * 8}px`,
+                background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(120, 220, 255, 0.3) 40%, rgba(120, 220, 255, 0.1))`,
+                boxShadow: `
+                  inset -5px -5px 10px rgba(255, 255, 255, 0.4),
+                  inset 5px 5px 10px rgba(0, 150, 200, 0.2),
+                  0 5px 15px rgba(100, 200, 255, 0.3)
+                `,
+                border: '1px solid rgba(255, 255, 255, 0.3)',
                 animationDelay: `${i * 0.8}s`,
                 animationDuration: `${4 + i * 0.5}s`,
               }}
