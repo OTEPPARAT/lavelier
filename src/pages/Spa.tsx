@@ -10,6 +10,8 @@ import { format } from "date-fns";
 import { th } from "date-fns/locale";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
+import nautilusShell from "@/assets/nautilus-shell.png";
+
 const spaPackages = [{
   id: 1,
   name: "Deep Sea Facial",
@@ -62,8 +64,21 @@ const Spa = () => {
       notes: ""
     });
   };
-  return <main className="min-h-screen pt-32 pb-20">
-      <div className="container mx-auto px-4">
+  return <main className="relative min-h-screen pt-32 pb-20 bg-gradient-to-b from-cyan-950/70 via-blue-950/80 to-slate-950/90">
+      {/* Background Shell Image */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div 
+          className="absolute top-1/4 right-0 w-1/2 h-1/2 opacity-20"
+          style={{
+            backgroundImage: `url(${nautilusShell})`,
+            backgroundSize: 'contain',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'right center',
+          }}
+        />
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl mb-6 font-thin">
