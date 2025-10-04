@@ -84,10 +84,10 @@ for your skin's timeless beauty."</p>
               <div className="mb-6 rounded-xl overflow-hidden">
                 <img src={serumPinkProducts} alt="Serum Collection" className="w-full h-auto" />
               </div>
-              <div className="inline-block p-4 rounded-full bg-accent/20 mb-6 group-hover:animate-wave">
-                <Heart className="w-8 h-8 text-accent" />
+              <div className="inline-block p-4 rounded-full bg-rose-400/20 mb-6 group-hover:animate-wave">
+                <Heart className="w-8 h-8 text-rose-400" />
               </div>
-              <h3 className="font-serif text-2xl font-semibold mb-4 text-accent">
+              <h3 className="font-serif text-2xl font-semibold mb-4 text-rose-300">
                 Serum Collection
               </h3>
               <p className="text-muted-foreground">
