@@ -170,33 +170,34 @@ for your skin's timeless beauty."</p>
       {/* Underwater Section */}
       <section className="relative py-20 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[600px] md:h-[700px]">
-              <img src={underwaterImage} alt="Deep sea beauty" className="rounded-3xl shadow-2xl animate-float w-full h-full object-cover" />
-            </div>
+          <div className="relative h-[600px] md:h-[700px]">
+            <img src={underwaterImage} alt="Deep sea beauty" className="rounded-3xl shadow-2xl w-full h-full object-cover" />
             
-            <div>
-              <h2 className="font-serif text-4xl sm:text-5xl font-bold mb-6">
-                <span className="gradient-text-coral font-didot">deep dive</span>
-                <br />
-                <span className="gradient-text-aqua font-didot">into...</span>
-                <br />
-                <span className="gradient-text-aqua font-didot">secrets of youth</span>
-              </h2>
-              
-              <p className="text-lg text-muted-foreground mb-8 leading-relaxed font-light">
-                ลาวีเลียร์นำสารสกัดจากปะการังลำค่าและสร้างสรรค์เป็นสูตรลับแห่ง
-                ความงามด้วยวิทยาการล้ำหน้าที่สุดเพื่อผิวที่ออนเยาว์และเปล่งประกาย
-                เหนือกาลเวลา... ค้นพบส่มผสมแห่งผิวที่แตกต่างในครูที่แรกที่เคาน์เตอร์
-              </p>
+            {/* Text Overlay */}
+            <div className="absolute inset-0 flex items-center justify-center md:justify-start p-8 md:p-16">
+              <div className="max-w-2xl">
+                <h2 className="font-serif text-4xl sm:text-5xl font-bold mb-6">
+                  <span className="gradient-text-coral font-didot">deep dive</span>
+                  <br />
+                  <span className="gradient-text-aqua font-didot">into...</span>
+                  <br />
+                  <span className="gradient-text-aqua font-didot">secrets of youth</span>
+                </h2>
+                
+                <p className="text-lg text-muted-foreground mb-8 leading-relaxed font-light">
+                  ลาวีเลียร์นำสารสกัดจากปะการังลำค่าและสร้างสรรค์เป็นสูตรลับแห่ง
+                  ความงามด้วยวิทยาการล้ำหน้าที่สุดเพื่อผิวที่ออนเยาว์และเปล่งประกาย
+                  เหนือกาลเวลา... ค้นพบส่มผสมแห่งผิวที่แตกต่างในครูที่แรกที่เคาน์เตอร์
+                </p>
 
-              <p className="text-base text-secondary font-light mb-4">
-                Lavelier ทุกสาขา พร้อมประสบการณ์ด้าติ่งสุดการพิมพ์ฟิวชั่นลึกในสปาส่วนตัวที่
-              </p>
-              
-              <p className="font-didot text-2xl gradient-text-aqua">
-                Lavelier Aquaterra Lounge เซ็นทรัลเวิร์ล
-              </p>
+                <p className="text-base text-secondary font-light mb-4">
+                  Lavelier ทุกสาขา พร้อมประสบการณ์ด้าติ่งสุดการพิมพ์ฟิวชั่นลึกในสปาส่วนตัวที่
+                </p>
+                
+                <p className="font-didot text-2xl gradient-text-aqua">
+                  Lavelier Aquaterra Lounge เซ็นทรัลเวิร์ล
+                </p>
+              </div>
             </div>
           </div>
         </div>
