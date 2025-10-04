@@ -208,7 +208,7 @@ const Spa = () => {
               </div>
 
               {/* Submit Button */}
-              <Button type="submit" className="w-full py-6 text-lg font-medium bg-gradient-to-r from-[hsl(339,75%,48%)] to-[hsl(335,70%,42%)] hover:opacity-90 transition-opacity text-white border-0">
+              <Button type="submit" className="w-full glass-button py-6 text-lg font-medium hover:bg-gradient-to-r hover:from-[hsl(339,75%,48%)] hover:to-[hsl(335,70%,42%)] hover:border-0 transition-all">
                 ยืนยันการจอง
               </Button>
             </form>
