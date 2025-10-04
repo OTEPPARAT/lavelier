@@ -68,7 +68,9 @@ All colors MUST be HSL.
     background: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.25);
     transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4),
+                0 -8px 30px rgba(255, 237, 160, 0.4),
+                0 0 40px rgba(255, 255, 255, 0.3);
   }
 
   /* Glass card effect */
@@ -113,6 +115,16 @@ All colors MUST be HSL.
 
   .animate-float {
     animation: float 6s ease-in-out infinite;
+  }
+
+  /* Nav link glow effect */
+  .nav-link-glow {
+    transition: all 0.3s ease;
+  }
+
+  .nav-link-glow:hover {
+    filter: drop-shadow(0 -4px 12px rgba(255, 237, 160, 0.5)) 
+            drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
   }
 }
 

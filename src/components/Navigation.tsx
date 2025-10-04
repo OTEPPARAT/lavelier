@@ -31,7 +31,7 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-light transition-all duration-300 relative group ${
+                className={`text-sm font-light transition-all duration-300 relative group nav-link-glow ${
                   isActive(link.path)
                     ? "text-amber-50/80"
                     : "text-amber-50/80 hover:text-amber-50"
