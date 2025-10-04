@@ -12,7 +12,8 @@ const Home = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover animate-underwater" style={{
         backgroundImage: `url(${heroImage})`,
-        backgroundPosition: 'center bottom'
+        backgroundPosition: 'center bottom',
+        filter: 'brightness(1.8) contrast(1.3)'
       }} />
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/50" />
