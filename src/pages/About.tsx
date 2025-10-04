@@ -5,8 +5,8 @@ const About = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text-brand-pink font-light">รู้จักเรา</span>
+          <h1 className="font-serif sm:text-6xl md:text-7xl font-bold mb-6 text-6xl">
+            <span className="gradient-text-brand-pink font-light text-base">รู้จักเรา</span>
             <br />
             <span className="text-foreground font-didot font-normal">Lavelier</span>
           </h1>
