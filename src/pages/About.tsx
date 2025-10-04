@@ -6,7 +6,7 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-serif sm:text-6xl md:text-7xl font-bold mb-6 text-6xl">
-            <span className="gradient-text-brand-pink font-light text-base">รู้จักเรา</span>
+            <span className="gradient-text-brand-pink font-light text-3xl">รู้จักเรา</span>
             <br />
             <span className="text-foreground font-didot font-normal">Lavelier</span>
           </h1>
