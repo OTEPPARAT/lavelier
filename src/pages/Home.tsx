@@ -153,10 +153,10 @@ for your skin's timeless beauty."</p>
               <div className="mb-6 rounded-xl overflow-hidden">
                 <img src={limitedGoldProducts} alt="Limited Edition" className="w-full h-auto" />
               </div>
-              <div className="inline-block p-4 rounded-full bg-yellow-600/20 mb-6 group-hover:animate-wave">
-                <Crown className="w-8 h-8 text-yellow-600" />
+              <div className="inline-block p-4 rounded-full mb-6 group-hover:animate-wave" style={{ backgroundColor: 'rgba(172, 137, 77, 0.25)' }}>
+                <Crown className="w-8 h-8" style={{ color: '#AC894D' }} />
               </div>
-              <h3 className="font-didot text-2xl font-semibold mb-4 text-yellow-500">
+              <h3 className="font-didot text-2xl font-semibold mb-4" style={{ color: '#AC894D' }}>
                 Limited Edition
               </h3>
               <p className="text-muted-foreground font-light">
