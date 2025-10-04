@@ -49,7 +49,7 @@ for your skin's timeless beauty."</p>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="glass-card p-8 rounded-2xl text-center group hover:scale-105 transition-transform overflow-hidden">
               <div className="mb-6 rounded-xl overflow-hidden">
-                <img src={deepSeaProducts} alt="Deep Sea Treasures" className="w-full h-48 object-cover" />
+                <img src={deepSeaProducts} alt="Deep Sea Treasures" className="w-full h-auto" />
               </div>
               <div className="inline-block p-4 rounded-full bg-primary/20 mb-6 group-hover:animate-wave">
                 <Droplets className="w-8 h-8 text-primary" />
