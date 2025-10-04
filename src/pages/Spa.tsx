@@ -134,7 +134,7 @@ const Spa = () => {
                 </Label>
                 <Popover>
                   <PopoverTrigger asChild>
-                    <Button variant="outline" className={cn("w-full justify-start text-left font-normal glass-button border-border hover:text-white hover:shadow-[0_0_20px_rgba(255,237,160,0.3),0_0_40px_rgba(255,255,255,0.15)] transition-all", !date && "text-muted-foreground")}>
+                    <Button variant="outline" className={cn("w-full justify-start text-left font-normal glass-button border-border hover:text-white hover:shadow-[0_0_20px_rgba(255,237,160,0.3),0_0_40px_rgba(255,255,255,0.15)] transition-all hover:bg-transparent hover:backdrop-blur-[20px]", !date && "text-muted-foreground")}>
                       {date ? format(date, "PPP", {
                       locale: th
                     }) : "เลือกวันที่"}
