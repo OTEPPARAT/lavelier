@@ -177,11 +177,11 @@ for your skin's timeless beauty."</p>
             <div className="absolute inset-0 flex items-center justify-center md:justify-start p-8 md:p-16">
               <div className="max-w-2xl">
                 <h2 className="font-serif text-4xl sm:text-5xl font-bold mb-6">
-                  <span className="text-pink-400 font-didot">deep dive</span>
+                  <span className="text-fuchsia-500 font-didot">deep dive</span>
                   <br />
-                  <span className="text-pink-400 font-didot">into...</span>
+                  <span className="text-fuchsia-500 font-didot">into...</span>
                   <br />
-                  <span className="text-pink-400 font-didot">secrets of youth</span>
+                  <span className="text-fuchsia-500 font-didot">secrets of youth</span>
                 </h2>
                 
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed font-light">
