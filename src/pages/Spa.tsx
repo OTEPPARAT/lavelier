@@ -10,7 +10,7 @@ import { format } from "date-fns";
 import { th } from "date-fns/locale";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
-import nautilusShell from "@/assets/nautilus-shell-transparent.png";
+import nautilusShell from "@/assets/nautilus-shell-clean.png";
 
 const spaPackages = [{
   id: 1,
@@ -68,7 +68,7 @@ const Spa = () => {
       {/* Background Shell Image */}
       <div className="absolute inset-0 pointer-events-none overflow-visible">
         <div 
-          className="absolute top-1/2 -right-32 w-[120%] h-[120%] -translate-y-1/2 opacity-80"
+          className="absolute top-1/2 -right-96 w-[480%] h-[480%] -translate-y-1/2 opacity-80"
           style={{
             backgroundImage: `url(${nautilusShell})`,
             backgroundSize: 'contain',
