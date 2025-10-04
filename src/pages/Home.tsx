@@ -176,12 +176,12 @@ for your skin's timeless beauty."</p>
             {/* Text Overlay */}
             <div className="absolute inset-0 flex items-center justify-center md:justify-start p-8 md:p-16">
               <div className="max-w-2xl">
-                <h2 className="font-serif text-4xl sm:text-5xl font-bold mb-6">
-                  <span className="text-fuchsia-500 font-didot">deep dive</span>
+                <h2 className="font-serif text-4xl sm:text-5xl font-bold mb-6" style={{ color: '#FF4DA6' }}>
+                  <span className="font-didot">deep dive</span>
                   <br />
-                  <span className="text-fuchsia-500 font-didot">into...</span>
+                  <span className="font-didot">into...</span>
                   <br />
-                  <span className="text-fuchsia-500 font-didot">secrets of youth</span>
+                  <span className="font-didot">secrets of youth</span>
                 </h2>
                 
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed font-light">
