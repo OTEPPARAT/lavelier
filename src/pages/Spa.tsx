@@ -228,16 +228,16 @@ const Spa = () => {
           <p className="text-secondary font-light">
             โทร: 02-XXX-XXXX
           </p>
-          
-          {/* Fixed Red Coral */}
-          <div className="fixed bottom-0 right-0 w-80 h-80 pointer-events-none z-50" style={{ transform: 'translate(25%, 25%)' }}>
-            <img 
-              src={coralRed} 
-              alt="Red Coral" 
-              className="w-full h-full object-contain"
-            />
-          </div>
         </div>
+      </div>
+      
+      {/* Fixed Red Coral - Outside container for true fixed positioning */}
+      <div className="fixed bottom-0 right-0 w-80 h-80 pointer-events-none z-50" style={{ transform: 'translate(25%, 25%)' }}>
+        <img 
+          src={coralRed} 
+          alt="Red Coral" 
+          className="w-full h-full object-contain"
+        />
       </div>
     </main>;
 };
