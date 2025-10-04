@@ -6,10 +6,10 @@ const Home = () => {
   return <main className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{
+        <div className="absolute inset-0 bg-cover bg-center" style={{
         backgroundImage: `url(${heroImage})`
       }} />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/50 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/50" />
         
         <div className="relative z-10 container mx-auto px-4 py-32 text-center">
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 animate-float">
