@@ -142,7 +142,7 @@ const Products = () => {
         </div>
 
         {/* Ocean Bubbles Background */}
-        <div className="fixed bottom-0 left-0 right-0 h-96 pointer-events-none overflow-hidden">
+        <div className="fixed bottom-0 left-0 right-0 h-96 pointer-events-none overflow-hidden z-50">
           <img 
             src={oceanBubbles} 
             alt="" 
@@ -156,8 +156,8 @@ const Products = () => {
               className="absolute bottom-0 rounded-full animate-bubble"
               style={{
                 left: `${45 + i * 3}%`,
-                width: `${20 + i * 8}px`,
-                height: `${20 + i * 8}px`,
+                width: `${10 + i * 4}px`,
+                height: `${10 + i * 4}px`,
                 background: `radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(120, 220, 255, 0.3) 40%, rgba(120, 220, 255, 0.1))`,
                 boxShadow: `
                   inset -5px -5px 10px rgba(255, 255, 255, 0.4),
