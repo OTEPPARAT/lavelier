@@ -59,7 +59,7 @@ const products = [
 
 const Products = () => {
   return (
-    <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-950">
+    <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-slate-900 via-cyan-950 to-slate-950">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
