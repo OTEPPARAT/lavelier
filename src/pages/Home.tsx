@@ -19,7 +19,7 @@ const Home = () => {
           </h1>
           
           <div className="max-w-3xl mx-auto mb-12">
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold mb-8">
+            <h2 className="font-serif sm:text-4xl md:text-5xl font-semibold mb-8 text-2xl">
               <span className="gradient-text-aqua font-didot">a new frontier of anti-aging</span>
             </h2>
             
