@@ -94,7 +94,7 @@ const Products = () => {
               </div>
 
               <div className="p-8 pt-4">
-                <h2 className="font-didot text-2xl sm:text-3xl font-semibold mb-4 text-amber-400">
+                <h2 className="font-didot text-2xl sm:text-3xl font-semibold mb-4 text-amber-100">
                   {product.name}
                 </h2>
                 
