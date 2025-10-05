@@ -121,21 +121,41 @@ const Products = () => {
           </div>
           
           {/* Floating Bubbles */}
-          {[...Array(8)].map((_, i) => <div key={i} className="absolute bottom-0 rounded-full animate-bubble" style={{
-          left: `${45 + i * 3}%`,
-          width: `${10 + i * 4}px`,
-          height: `${10 + i * 4}px`,
-          background: `radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.35) 15%, rgba(120, 220, 255, 0.12) 40%, rgba(120, 220, 255, 0.04))`,
-          boxShadow: `
-                  inset -5px -5px 10px rgba(255, 255, 255, 0.18),
-                  inset 5px 5px 10px rgba(0, 150, 200, 0.08),
-                  0 5px 15px rgba(100, 200, 255, 0.12),
-                  inset 2px 2px 4px rgba(255, 255, 255, 0.5)
-                `,
-          border: '1px solid rgba(255, 255, 255, 0.15)',
-          animationDelay: `${i * 0.8}s`,
-          animationDuration: `${4 + i * 0.5}s`
-        }} />)}
+          {[...Array(12)].map((_, i) => {
+            const positions = [
+              { left: '15%', bottom: '10%' },
+              { left: '25%', bottom: '25%' },
+              { left: '8%', bottom: '40%' },
+              { left: '35%', bottom: '15%' },
+              { left: '18%', bottom: '55%' },
+              { left: '42%', bottom: '30%' },
+              { left: '12%', bottom: '70%' },
+              { left: '28%', bottom: '5%' },
+              { left: '38%', bottom: '45%' },
+              { left: '22%', bottom: '35%' },
+              { left: '32%', bottom: '60%' },
+              { left: '5%', bottom: '20%' }
+            ];
+            
+            return <div key={i} className="absolute rounded-full animate-bubble" style={{
+              left: positions[i].left,
+              bottom: positions[i].bottom,
+              width: `${15 + (i % 5) * 3}px`,
+              height: `${15 + (i % 5) * 3}px`,
+              background: `radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.15) 20%, rgba(120, 220, 255, 0.08) 45%, rgba(120, 220, 255, 0.02))`,
+              boxShadow: `
+                inset -3px -3px 8px rgba(255, 255, 255, 0.25),
+                inset 3px 3px 8px rgba(0, 150, 200, 0.05),
+                0 4px 12px rgba(100, 200, 255, 0.08),
+                inset 1px 1px 3px rgba(255, 255, 255, 0.6),
+                0 0 8px rgba(200, 240, 255, 0.15)
+              `,
+              border: '0.5px solid rgba(255, 255, 255, 0.2)',
+              animationDelay: `${i * 0.6}s`,
+              animationDuration: `${5 + (i % 4) * 0.8}s`,
+              filter: 'blur(0.3px)'
+            }} />
+          })}
         </div>
       </div>
     </main>;
