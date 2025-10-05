@@ -142,16 +142,16 @@ const Products = () => {
               bottom: positions[i].bottom,
               width: `${7.5 + (i % 5) * 1.5}px`,
               height: `${7.5 + (i % 5) * 1.5}px`,
-              background: `radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.12) 20%, rgba(120, 220, 255, 0.05) 45%, rgba(120, 220, 255, 0.01))`,
+              background: `radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3) 15%, rgba(120, 220, 255, 0.08) 35%, rgba(120, 220, 255, 0.02))`,
               boxShadow: `
-                inset -2px -2px 6px rgba(255, 255, 255, 0.35),
-                inset 2px 2px 6px rgba(0, 150, 200, 0.03),
-                0 2px 8px rgba(100, 200, 255, 0.15),
-                inset 0.5px 0.5px 2px rgba(255, 255, 255, 0.7),
-                0 0 12px rgba(200, 240, 255, 0.25),
-                0 0 6px rgba(255, 255, 255, 0.3)
+                inset -2px -2px 4px rgba(255, 255, 255, 0.4),
+                inset 2px 2px 4px rgba(0, 150, 200, 0.02),
+                0 0 8px rgba(200, 240, 255, 0.4),
+                0 0 12px rgba(200, 240, 255, 0.3),
+                0 0 16px rgba(200, 240, 255, 0.2),
+                inset 1px 1px 2px rgba(255, 255, 255, 0.9)
               `,
-              border: '0.5px solid rgba(255, 255, 255, 0.25)',
+              border: '0.5px solid rgba(255, 255, 255, 0.3)',
               animationDelay: `${i * 0.6}s`,
               animationDuration: `${5 + (i % 4) * 0.8}s`,
               filter: 'blur(0.2px)'
