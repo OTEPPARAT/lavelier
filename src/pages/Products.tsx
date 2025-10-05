@@ -140,8 +140,8 @@ const Products = () => {
             return <div key={i} className="absolute rounded-full animate-bubble" style={{
               left: positions[i].left,
               bottom: positions[i].bottom,
-              width: `${15 + (i % 5) * 3}px`,
-              height: `${15 + (i % 5) * 3}px`,
+              width: `${7.5 + (i % 5) * 1.5}px`,
+              height: `${7.5 + (i % 5) * 1.5}px`,
               background: `radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.15) 20%, rgba(120, 220, 255, 0.08) 45%, rgba(120, 220, 255, 0.02))`,
               boxShadow: `
                 inset -3px -3px 8px rgba(255, 255, 255, 0.25),
