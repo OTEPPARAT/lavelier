@@ -146,9 +146,6 @@ const Products = () => {
               boxShadow: `
                 inset -2px -2px 4px rgba(255, 255, 255, 0.4),
                 inset 2px 2px 4px rgba(0, 150, 200, 0.02),
-                0 0 8px rgba(200, 240, 255, 0.4),
-                0 0 12px rgba(200, 240, 255, 0.3),
-                0 0 16px rgba(200, 240, 255, 0.2),
                 inset 1px 1px 2px rgba(255, 255, 255, 0.9)
               `,
               border: '0.5px solid rgba(255, 255, 255, 0.3)',
